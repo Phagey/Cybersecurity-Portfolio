@@ -3,11 +3,11 @@ from datetime import datetime
 
 # ✏️ UPDATED FROM PROFILE SCREENSHOT
 USERNAME = "ayomiolutoye"
-POINTS = 34
-STREAK = 105
+POINTS = 46
+STREAK = 109
 RANK = "[0x9] MAGE"
-RANK_POSITION = 139662
-TOP_PERCENT = "6%"
+RANK_POSITION = 97648
+TOP_PERCENT = "4%"
 
 COMPLETED_ROOMS = [
     {"title": "How Websites Work", "url": "https://tryhackme.com/room/howwebsiteswork"},
@@ -29,7 +29,7 @@ COMPLETED_ROOMS = [
     {"title": "Operating System Security", "url": "https://tryhackme.com/room/operatingsystemsecurity"},
     {"title": "Search Skills", "url": "https://tryhackme.com/room/searchskills"},
     {"title": "Operating Systems: Introduction", "url": "https://tryhackme.com/room/operatingsystemsintroduction"},
-    {"title": "Search Skills", "url": "https://tryhackme.com/room/searchskills"},  # Duplicated on THM profile
+    {"title": "Search Skills", "url": "https://tryhackme.com/room/searchskillscS"},  # Distinct real completion, different slug on THM
     {"title": "Linux CLI Basics", "url": "https://tryhackme.com/room/linuxclibasics"},
     {"title": "Data Representation", "url": "https://tryhackme.com/room/datarepresentation"},
     {"title": "Data Encoding", "url": "https://tryhackme.com/room/dataencoding"},
@@ -59,14 +59,14 @@ COMPLETED_ROOMS = [
     {"title": "Windows PowerShell", "url": "https://tryhackme.com/room/windowspowershell"},
     {"title": "Linux Shells", "url": "https://tryhackme.com/room/linuxshells"},
     {"title": "Blue", "url": "https://tryhackme.com/room/blue"},
-    {"title": "John the Ripper: The Basics", "url": "https://tryhackme.com/room/johntheripper0"},
+    {"title": "John the Ripper: The Basics", "url": "https://tryhackme.com/room/johntheripperbasics"},
     {"title": "Metasploit: Exploitation", "url": "https://tryhackme.com/room/metasploitexploitation"},
     {"title": "Metasploit: Introduction", "url": "https://tryhackme.com/room/metasploitintro"},
     {"title": "Metasploit: Meterpreter", "url": "https://tryhackme.com/room/meterpreter"},
     {"title": "Moniker Link (CVE-2024-21413)", "url": "https://tryhackme.com/room/monikerlink"},
-    {"title": "Nmap: The Basics", "url": "https://tryhackme.com/room/nmap01"},
+    {"title": "Nmap: The Basics", "url": "https://tryhackme.com/room/nmap"},
     {"title": "Tcpdump: The Basics", "url": "https://tryhackme.com/room/tcpdump"},
-    {"title": "Public Key Cryptography Basics", "url": "https://tryhackme.com/room/publickeycryptography"},
+    {"title": "Public Key Cryptography Basics", "url": "https://tryhackme.com/room/publickeycrypto"},
     {"title": "Cryptography Basics", "url": "https://tryhackme.com/room/cryptographybasics"},
     {"title": "Hashing Basics", "url": "https://tryhackme.com/room/hashingbasics"},
     {"title": "JavaScript Essentials", "url": "https://tryhackme.com/room/javascriptessentials"},
@@ -74,18 +74,22 @@ COMPLETED_ROOMS = [
     {"title": "SQL Fundamentals", "url": "https://tryhackme.com/room/sqlfundamentals"},
     {"title": "Hydra", "url": "https://tryhackme.com/room/hydra"},
     {"title": "Burp Suite: The Basics", "url": "https://tryhackme.com/room/burpsuitebasics"},
-    {"title": "Gobuster: The Basics", "url": "https://tryhackme.com/room/gobusterbasics"},
-    {"title": "SQLMap: The Basics", "url": "https://tryhackme.com/room/sqlmap"},
+    {"title": "Gobuster: The Basics", "url": "https://tryhackme.com/room/gobusterthebasics"},
+    {"title": "SQLMap: The Basics", "url": "https://tryhackme.com/room/sqlmapthebasics"},
     {"title": "Shells Overview", "url": "https://tryhackme.com/room/shellsoverview"},
     {"title": "SOC Fundamentals", "url": "https://tryhackme.com/room/socfundamentals"},
     {"title": "Digital Forensics Fundamentals", "url": "https://tryhackme.com/room/digitalforensicsfundamentals"},
     {"title": "Incident Response Fundamentals", "url": "https://tryhackme.com/room/incidentresponsefundamentals"},
     {"title": "Logs Fundamentals", "url": "https://tryhackme.com/room/logsfundamentals"},
-    {"title": "Junior Security Analyst Intro", "url": "https://tryhackme.com/room/jrsecanalystintro"},
+    {"title": "Junior Security Analyst Intro", "url": "https://tryhackme.com/room/jrsecanalystintrouxo"},
     {"title": "Splunk: The Basics", "url": "https://tryhackme.com/room/splunk101"},
     {"title": "Firewall Fundamentals", "url": "https://tryhackme.com/room/firewallfundamentals"},
     {"title": "IDS Fundamentals", "url": "https://tryhackme.com/room/idsfundamentals"},
     {"title": "Vulnerability Scanner Overview", "url": "https://tryhackme.com/room/vulnerabilityscanneroverview"},
+    # ✏️ NEWLY ADDED (from latest profile export)
+    {"title": "Snort", "url": "https://tryhackme.com/room/snort"},
+    {"title": "Snort Challenge - The Basics", "url": "https://tryhackme.com/room/snortchallenges1"},
+    {"title": "Introduction to SIEM", "url": "https://tryhackme.com/room/introtosiem"},
 ]
 
 BADGES = [
@@ -103,6 +107,8 @@ BADGES = [
     "🪟 Blue — Hacking into Windows via EternalBlue",
     "🗡️ Sword Apprentice — Completing the SQLMap room",
     "🔥 90 Day Streak — Hacking for 90 days in a row",
+    "🔬 Network Hog — Sniffed out malicious traffic in the network",
+    "📱 First Mobile Quiz — Completing your first quiz or recap on the mobile app (Rare: 2.4%)",
 ]
 
 SKILLS = [
@@ -120,7 +126,7 @@ def build_readme_section():
     rooms_md = "\n".join(
         [f"- [{r['title']}]({r['url']})" for r in COMPLETED_ROOMS]
     )
-    badges_md = "\n".join([f"- {b}" for b in BADGES]) or "_Visit your profile → Badges tab to see all 14 badges!_"
+    badges_md = "\n".join([f"- {b}" for b in BADGES]) or "_Visit your profile → Badges tab to see all 16 badges!_"
     skills_md = ", ".join(SKILLS)
     last_updated = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
 
@@ -134,7 +140,7 @@ def build_readme_section():
 | 💰 Points | {POINTS} |
 | 🔥 Current Streak | {STREAK} days |
 | ✅ Rooms Completed | {len(COMPLETED_ROOMS)} |
-| 🎖️ Badges Earned | {len(BADGES) or 14} |
+| 🎖️ Badges Earned | {len(BADGES) or 16} |
 
 ### 🧠 Skills Gained
 {skills_md}
