@@ -116,5 +116,5 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - [Snort Challenge - The Basics](https://tryhackme.com/room/snortchallenges1)
 - [Introduction to SIEM](https://tryhackme.com/room/introtosiem)
 
-> _Last updated: 2026-07-25 02:19 UTC_
+> _Last updated: 2026-07-25 03:16 UTC_
 <!-- THM-STATS:END -->
