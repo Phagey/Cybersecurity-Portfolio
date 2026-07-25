@@ -6,7 +6,7 @@ USERNAME = "ayomiolutoye"
 POINTS = 46
 STREAK = 109
 RANK = "[0x9] MAGE"
-RANK_POSITION = 97648
+RANK_POSITION = 95822
 TOP_PERCENT = "4%"
 
 COMPLETED_ROOMS = [
@@ -86,14 +86,15 @@ COMPLETED_ROOMS = [
     {"title": "Firewall Fundamentals", "url": "https://tryhackme.com/room/firewallfundamentals"},
     {"title": "IDS Fundamentals", "url": "https://tryhackme.com/room/idsfundamentals"},
     {"title": "Vulnerability Scanner Overview", "url": "https://tryhackme.com/room/vulnerabilityscanneroverview"},
-    # ✏️ NEWLY ADDED (from latest profile export)
     {"title": "Snort", "url": "https://tryhackme.com/room/snort"},
     {"title": "Snort Challenge - The Basics", "url": "https://tryhackme.com/room/snortchallenges1"},
     {"title": "Introduction to SIEM", "url": "https://tryhackme.com/room/introtosiem"},
+    # ✏️ NEWLY ADDED (from latest profile export)
+    {"title": "CyberChef: The Basics", "url": "https://tryhackme.com/r/room/cyberchefbasics"},
 ]
 
 BADGES = [
-    " bowling First Four — Completing four rooms in your first week",
+    "🎯 First Four — Completing four rooms in your first week",
     "🔥 3 Day Streak — Achieving a 3 day hacking streak",
     "🌐 Networking Nerd — Completing the Network Fundamentals module",
     "🔥 7 Day Streak — Achieving a 7 day hacking streak",
@@ -118,7 +119,7 @@ SKILLS = [
     "PowerShell", "Python", "JavaScript", "Cloud Computing",
     "Offensive Security", "Defensive Security", "Digital Forensics",
     "Incident Response", "Splunk", "SIEM", "Firewalls", "IDS/IPS", "Snort",
-    "Vulnerability Assessment", "OpenVAS", "Nessus"
+    "Vulnerability Assessment", "OpenVAS", "Nessus", "CyberChef"
 ]
 
 
