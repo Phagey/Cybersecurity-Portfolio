@@ -8,11 +8,11 @@ Tracking my cybersecurity learning journey
 | Stat | Value |
 |------|-------|
 | 👤 Username | [ayomiolutoye](https://tryhackme.com/p/ayomiolutoye) |
-| 🏆 Rank | [0x9] MAGE (#139662 — Top 6%) |
-| 💰 Points | 34 |
-| 🔥 Current Streak | 105 days |
-| ✅ Rooms Completed | 76 |
-| 🎖️ Badges Earned | 14 |
+| 🏆 Rank | [0x9] MAGE (#97648 — Top 4%) |
+| 💰 Points | 46 |
+| 🔥 Current Streak | 109 days |
+| ✅ Rooms Completed | 79 |
+| 🎖️ Badges Earned | 16 |
 
 ### 🧠 Skills Gained
 Networking, Linux, Windows, Active Directory, Web Application Security, Cryptography, SQL, Nmap, Metasploit, Wireshark, Tcpdump, PowerShell, Python, JavaScript, Cloud Computing, Offensive Security, Defensive Security, Digital Forensics, Incident Response, Splunk, SIEM, Firewalls, IDS/IPS, Snort, Vulnerability Assessment, OpenVAS, Nessus
@@ -32,8 +32,10 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - 🪟 Blue — Hacking into Windows via EternalBlue
 - 🗡️ Sword Apprentice — Completing the SQLMap room
 - 🔥 90 Day Streak — Hacking for 90 days in a row
+- 🔬 Network Hog — Sniffed out malicious traffic in the network
+- 📱 First Mobile Quiz — Completing your first quiz or recap on the mobile app (Rare: 2.4%)
 
-### 📚 Completed Rooms (76)
+### 📚 Completed Rooms (79)
 - [How Websites Work](https://tryhackme.com/room/howwebsiteswork)
 - [Putting it all together](https://tryhackme.com/room/puttingitalltogether)
 - [DNS in Detail](https://tryhackme.com/room/dnsindetail)
@@ -53,7 +55,7 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - [Operating System Security](https://tryhackme.com/room/operatingsystemsecurity)
 - [Search Skills](https://tryhackme.com/room/searchskills)
 - [Operating Systems: Introduction](https://tryhackme.com/room/operatingsystemsintroduction)
-- [Search Skills](https://tryhackme.com/room/searchskills)
+- [Search Skills](https://tryhackme.com/room/searchskillscS)
 - [Linux CLI Basics](https://tryhackme.com/room/linuxclibasics)
 - [Data Representation](https://tryhackme.com/room/datarepresentation)
 - [Data Encoding](https://tryhackme.com/room/dataencoding)
@@ -83,14 +85,14 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - [Windows PowerShell](https://tryhackme.com/room/windowspowershell)
 - [Linux Shells](https://tryhackme.com/room/linuxshells)
 - [Blue](https://tryhackme.com/room/blue)
-- [John the Ripper: The Basics](https://tryhackme.com/room/johntheripper0)
+- [John the Ripper: The Basics](https://tryhackme.com/room/johntheripperbasics)
 - [Metasploit: Exploitation](https://tryhackme.com/room/metasploitexploitation)
 - [Metasploit: Introduction](https://tryhackme.com/room/metasploitintro)
 - [Metasploit: Meterpreter](https://tryhackme.com/room/meterpreter)
 - [Moniker Link (CVE-2024-21413)](https://tryhackme.com/room/monikerlink)
-- [Nmap: The Basics](https://tryhackme.com/room/nmap01)
+- [Nmap: The Basics](https://tryhackme.com/room/nmap)
 - [Tcpdump: The Basics](https://tryhackme.com/room/tcpdump)
-- [Public Key Cryptography Basics](https://tryhackme.com/room/publickeycryptography)
+- [Public Key Cryptography Basics](https://tryhackme.com/room/publickeycrypto)
 - [Cryptography Basics](https://tryhackme.com/room/cryptographybasics)
 - [Hashing Basics](https://tryhackme.com/room/hashingbasics)
 - [JavaScript Essentials](https://tryhackme.com/room/javascriptessentials)
@@ -98,18 +100,21 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - [SQL Fundamentals](https://tryhackme.com/room/sqlfundamentals)
 - [Hydra](https://tryhackme.com/room/hydra)
 - [Burp Suite: The Basics](https://tryhackme.com/room/burpsuitebasics)
-- [Gobuster: The Basics](https://tryhackme.com/room/gobusterbasics)
-- [SQLMap: The Basics](https://tryhackme.com/room/sqlmap)
+- [Gobuster: The Basics](https://tryhackme.com/room/gobusterthebasics)
+- [SQLMap: The Basics](https://tryhackme.com/room/sqlmapthebasics)
 - [Shells Overview](https://tryhackme.com/room/shellsoverview)
 - [SOC Fundamentals](https://tryhackme.com/room/socfundamentals)
 - [Digital Forensics Fundamentals](https://tryhackme.com/room/digitalforensicsfundamentals)
 - [Incident Response Fundamentals](https://tryhackme.com/room/incidentresponsefundamentals)
 - [Logs Fundamentals](https://tryhackme.com/room/logsfundamentals)
-- [Junior Security Analyst Intro](https://tryhackme.com/room/jrsecanalystintro)
+- [Junior Security Analyst Intro](https://tryhackme.com/room/jrsecanalystintrouxo)
 - [Splunk: The Basics](https://tryhackme.com/room/splunk101)
 - [Firewall Fundamentals](https://tryhackme.com/room/firewallfundamentals)
 - [IDS Fundamentals](https://tryhackme.com/room/idsfundamentals)
 - [Vulnerability Scanner Overview](https://tryhackme.com/room/vulnerabilityscanneroverview)
+- [Snort](https://tryhackme.com/room/snort)
+- [Snort Challenge - The Basics](https://tryhackme.com/room/snortchallenges1)
+- [Introduction to SIEM](https://tryhackme.com/room/introtosiem)
 
-> _Last updated: 2026-07-24 03:16 UTC_
+> _Last updated: 2026-07-25 02:19 UTC_
 <!-- THM-STATS:END -->
