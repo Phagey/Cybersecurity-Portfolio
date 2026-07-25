@@ -8,17 +8,17 @@ Tracking my cybersecurity learning journey
 | Stat | Value |
 |------|-------|
 | 👤 Username | [ayomiolutoye](https://tryhackme.com/p/ayomiolutoye) |
-| 🏆 Rank | [0x9] MAGE (#97648 — Top 4%) |
+| 🏆 Rank | [0x9] MAGE (#95822 — Top 4%) |
 | 💰 Points | 46 |
 | 🔥 Current Streak | 109 days |
-| ✅ Rooms Completed | 79 |
+| ✅ Rooms Completed | 80 |
 | 🎖️ Badges Earned | 16 |
 
 ### 🧠 Skills Gained
-Networking, Linux, Windows, Active Directory, Web Application Security, Cryptography, SQL, Nmap, Metasploit, Wireshark, Tcpdump, PowerShell, Python, JavaScript, Cloud Computing, Offensive Security, Defensive Security, Digital Forensics, Incident Response, Splunk, SIEM, Firewalls, IDS/IPS, Snort, Vulnerability Assessment, OpenVAS, Nessus
+Networking, Linux, Windows, Active Directory, Web Application Security, Cryptography, SQL, Nmap, Metasploit, Wireshark, Tcpdump, PowerShell, Python, JavaScript, Cloud Computing, Offensive Security, Defensive Security, Digital Forensics, Incident Response, Splunk, SIEM, Firewalls, IDS/IPS, Snort, Vulnerability Assessment, OpenVAS, Nessus, CyberChef
 
 ### 🎖️ Badges
--  bowling First Four — Completing four rooms in your first week
+- 🎯 First Four — Completing four rooms in your first week
 - 🔥 3 Day Streak — Achieving a 3 day hacking streak
 - 🌐 Networking Nerd — Completing the Network Fundamentals module
 - 🔥 7 Day Streak — Achieving a 7 day hacking streak
@@ -35,7 +35,7 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - 🔬 Network Hog — Sniffed out malicious traffic in the network
 - 📱 First Mobile Quiz — Completing your first quiz or recap on the mobile app (Rare: 2.4%)
 
-### 📚 Completed Rooms (79)
+### 📚 Completed Rooms (80)
 - [How Websites Work](https://tryhackme.com/room/howwebsiteswork)
 - [Putting it all together](https://tryhackme.com/room/puttingitalltogether)
 - [DNS in Detail](https://tryhackme.com/room/dnsindetail)
@@ -115,6 +115,7 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - [Snort](https://tryhackme.com/room/snort)
 - [Snort Challenge - The Basics](https://tryhackme.com/room/snortchallenges1)
 - [Introduction to SIEM](https://tryhackme.com/room/introtosiem)
+- [CyberChef: The Basics](https://tryhackme.com/r/room/cyberchefbasics)
 
-> _Last updated: 2026-07-25 03:16 UTC_
+> _Last updated: 2026-07-25 22:15 UTC_
 <!-- THM-STATS:END -->
