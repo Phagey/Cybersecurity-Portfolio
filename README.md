@@ -117,5 +117,5 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - [Introduction to SIEM](https://tryhackme.com/room/introtosiem)
 - [CyberChef: The Basics](https://tryhackme.com/r/room/cyberchefbasics)
 
-> _Last updated: 2026-07-26 03:29 UTC_
+> _Last updated: 2026-07-27 03:37 UTC_
 <!-- THM-STATS:END -->
