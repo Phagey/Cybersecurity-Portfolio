@@ -89,9 +89,8 @@ COMPLETED_ROOMS = [
     {"title": "Snort", "url": "https://tryhackme.com/room/snort"},
     {"title": "Snort Challenge - The Basics", "url": "https://tryhackme.com/room/snortchallenges1"},
     {"title": "Introduction to SIEM", "url": "https://tryhackme.com/room/introtosiem"},
-    {"title": "YARA", "url": "https://tryhackme.com/room/yara"},
-    {"title": "CyberChef: The Basics", "url": "https://tryhackme.com/r/room/cyberchefbasics"},
-    {"title": "CAPA: The Basics", "url": "https://tryhackme.com/r/room/capathebasics"},
+    {"title": "CyberChef: The Basics", "url": "https://tryhackme.com/room/cyberchefbasics"},
+    {"title": "CAPA: The Basics", "url": "https://tryhackme.com/room/capathebasics"},
 ]
 
 BADGES = [
