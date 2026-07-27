@@ -8,14 +8,14 @@ Tracking my cybersecurity learning journey
 | Stat | Value |
 |------|-------|
 | 👤 Username | [ayomiolutoye](https://tryhackme.com/p/ayomiolutoye) |
-| 🏆 Rank | [0x9] MAGE (#95822 — Top 4%) |
+| 🏆 Rank | [0x9] MAGE (#90671 — Top 4%) |
 | 💰 Points | 46 |
-| 🔥 Current Streak | 109 days |
-| ✅ Rooms Completed | 80 |
+| 🔥 Current Streak | 111 days |
+| ✅ Rooms Completed | 82 |
 | 🎖️ Badges Earned | 16 |
 
 ### 🧠 Skills Gained
-Networking, Linux, Windows, Active Directory, Web Application Security, Cryptography, SQL, Nmap, Metasploit, Wireshark, Tcpdump, PowerShell, Python, JavaScript, Cloud Computing, Offensive Security, Defensive Security, Digital Forensics, Incident Response, Splunk, SIEM, Firewalls, IDS/IPS, Snort, Vulnerability Assessment, OpenVAS, Nessus, CyberChef
+Networking, Linux, Windows, Active Directory, Web Application Security, Cryptography, SQL, Nmap, Metasploit, Wireshark, Tcpdump, PowerShell, Python, JavaScript, Cloud Computing, Offensive Security, Defensive Security, Digital Forensics, Incident Response, Splunk, SIEM, Firewalls, IDS/IPS, Snort, Vulnerability Assessment, OpenVAS, Nessus, CyberChef, YARA, Malware Analysis, CAPA, Static Analysis
 
 ### 🎖️ Badges
 - 🎯 First Four — Completing four rooms in your first week
@@ -35,7 +35,7 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - 🔬 Network Hog — Sniffed out malicious traffic in the network
 - 📱 First Mobile Quiz — Completing your first quiz or recap on the mobile app (Rare: 2.4%)
 
-### 📚 Completed Rooms (80)
+### 📚 Completed Rooms (82)
 - [How Websites Work](https://tryhackme.com/room/howwebsiteswork)
 - [Putting it all together](https://tryhackme.com/room/puttingitalltogether)
 - [DNS in Detail](https://tryhackme.com/room/dnsindetail)
@@ -115,7 +115,9 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - [Snort](https://tryhackme.com/room/snort)
 - [Snort Challenge - The Basics](https://tryhackme.com/room/snortchallenges1)
 - [Introduction to SIEM](https://tryhackme.com/room/introtosiem)
+- [YARA](https://tryhackme.com/room/yara)
 - [CyberChef: The Basics](https://tryhackme.com/r/room/cyberchefbasics)
+- [CAPA: The Basics](https://tryhackme.com/r/room/capathebasics)
 
-> _Last updated: 2026-07-27 03:37 UTC_
+> _Last updated: 2026-07-27 22:51 UTC_
 <!-- THM-STATS:END -->
