@@ -118,5 +118,5 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - [CyberChef: The Basics](https://tryhackme.com/room/cyberchefbasics)
 - [CAPA: The Basics](https://tryhackme.com/room/capathebasics)
 
-> _Last updated: 2026-07-27 23:00 UTC_
+> _Last updated: 2026-07-28 02:53 UTC_
 <!-- THM-STATS:END -->
