@@ -8,14 +8,14 @@ Tracking my cybersecurity learning journey
 | Stat | Value |
 |------|-------|
 | 👤 Username | [ayomiolutoye](https://tryhackme.com/p/ayomiolutoye) |
-| 🏆 Rank | [0x9] MAGE (#90671 — Top 4%) |
+| 🏆 Rank | [0x9] MAGE (#88707 — Top 4%) |
 | 💰 Points | 46 |
-| 🔥 Current Streak | 111 days |
-| ✅ Rooms Completed | 81 |
+| 🔥 Current Streak | 113 days |
+| ✅ Rooms Completed | 82 |
 | 🎖️ Badges Earned | 16 |
 
 ### 🧠 Skills Gained
-Networking, Linux, Windows, Active Directory, Web Application Security, Cryptography, SQL, Nmap, Metasploit, Wireshark, Tcpdump, PowerShell, Python, JavaScript, Cloud Computing, Offensive Security, Defensive Security, Digital Forensics, Incident Response, Splunk, SIEM, Firewalls, IDS/IPS, Snort, Vulnerability Assessment, OpenVAS, Nessus, CyberChef, YARA, Malware Analysis, CAPA, Static Analysis
+Networking, Linux, Windows, Active Directory, Web Application Security, Cryptography, SQL, Nmap, Metasploit, Wireshark, Tcpdump, PowerShell, Python, JavaScript, Cloud Computing, Offensive Security, Defensive Security, Digital Forensics, Incident Response, Splunk, SIEM, Firewalls, IDS/IPS, Snort, Vulnerability Assessment, OpenVAS, Nessus, CyberChef, YARA, Malware Analysis, CAPA, Static Analysis, REMnux, Volatility3, Memory Forensics, oledump.py, OLE/Document Analysis, Network Traffic Simulation (INetSim)
 
 ### 🎖️ Badges
 - 🎯 First Four — Completing four rooms in your first week
@@ -35,7 +35,7 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - 🔬 Network Hog — Sniffed out malicious traffic in the network
 - 📱 First Mobile Quiz — Completing your first quiz or recap on the mobile app (Rare: 2.4%)
 
-### 📚 Completed Rooms (81)
+### 📚 Completed Rooms (82)
 - [How Websites Work](https://tryhackme.com/room/howwebsiteswork)
 - [Putting it all together](https://tryhackme.com/room/puttingitalltogether)
 - [DNS in Detail](https://tryhackme.com/room/dnsindetail)
@@ -117,6 +117,7 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - [Introduction to SIEM](https://tryhackme.com/room/introtosiem)
 - [CyberChef: The Basics](https://tryhackme.com/room/cyberchefbasics)
 - [CAPA: The Basics](https://tryhackme.com/room/capathebasics)
+- [REMnux: Getting Started](https://tryhackme.com/room/remnuxgettingstarted)
 
-> _Last updated: 2026-07-29 03:13 UTC_
+> _Last updated: 2026-07-29 21:07 UTC_
 <!-- THM-STATS:END -->
