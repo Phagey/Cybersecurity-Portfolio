@@ -1,12 +1,12 @@
 import re
 from datetime import datetime
 
-# ✏️ UPDATED FROM PROFILE SCREENSHOT & CAPA LAB DEBRIEF
+# ✏️ UPDATED FROM PROFILE SCREENSHOT & REMNUX: GETTING STARTED DEBRIEF
 USERNAME = "ayomiolutoye"
 POINTS = 46          # Matches THM profile header
-STREAK = 111          # 111-day active streak
+STREAK = 113          # 113-day active streak
 RANK = "[0x9] MAGE"
-RANK_POSITION = 90671 # Updated rank position
+RANK_POSITION = 88707 # Updated rank position
 TOP_PERCENT = "4%"
 
 COMPLETED_ROOMS = [
@@ -29,7 +29,7 @@ COMPLETED_ROOMS = [
     {"title": "Operating System Security", "url": "https://tryhackme.com/room/operatingsystemsecurity"},
     {"title": "Search Skills", "url": "https://tryhackme.com/room/searchskills"},
     {"title": "Operating Systems: Introduction", "url": "https://tryhackme.com/room/operatingsystemsintroduction"},
-    {"title": "Search Skills", "url": "https://tryhackme.com/room/searchskillscS"},  # Distinct real completion, different slug on THM
+    {"title": "Search Skills", "url": "https://tryhackme.com/room/searchskillscS"},
     {"title": "Linux CLI Basics", "url": "https://tryhackme.com/room/linuxclibasics"},
     {"title": "Data Representation", "url": "https://tryhackme.com/room/datarepresentation"},
     {"title": "Data Encoding", "url": "https://tryhackme.com/room/dataencoding"},
@@ -91,93 +91,5 @@ COMPLETED_ROOMS = [
     {"title": "Introduction to SIEM", "url": "https://tryhackme.com/room/introtosiem"},
     {"title": "CyberChef: The Basics", "url": "https://tryhackme.com/room/cyberchefbasics"},
     {"title": "CAPA: The Basics", "url": "https://tryhackme.com/room/capathebasics"},
+    {"title": "REMnux: Getting Started", "url": "https://tryhackme.com/room/remnuxgettingstarted"},
 ]
-
-BADGES = [
-    "🎯 First Four — Completing four rooms in your first week",
-    "🔥 3 Day Streak — Achieving a 3 day hacking streak",
-    "🌐 Networking Nerd — Completing the Network Fundamentals module",
-    "🔥 7 Day Streak — Achieving a 7 day hacking streak",
-    "🕸️ Webbed — Understands how the world wide web works",
-    "💻 World Wide Web — Completing the How The Web Works module",
-    "🐧 cat linux.txt — Being competent in Linux",
-    "🔥 30 Day Streak — Hacking for 30 days solid",
-    "📦 Session Held — Completing 4 weekly missions in a row (Rare: 1.9%)",
-    "🥇 Platinum League — Platinum League 1st place (Epic: 0.9%)",
-    "🛡️ Metasploitable — Contains the knowledge to use Metasploit (Rare: 9.6%)",
-    "🪟 Blue — Hacking into Windows via EternalBlue",
-    "🗡️ Sword Apprentice — Completing the SQLMap room",
-    "🔥 90 Day Streak — Hacking for 90 days in a row",
-    "🔬 Network Hog — Sniffed out malicious traffic in the network",
-    "📱 First Mobile Quiz — Completing your first quiz or recap on the mobile app (Rare: 2.4%)",
-]
-
-SKILLS = [
-    "Networking", "Linux", "Windows", "Active Directory",
-    "Web Application Security", "Cryptography", "SQL",
-    "Nmap", "Metasploit", "Wireshark", "Tcpdump",
-    "PowerShell", "Python", "JavaScript", "Cloud Computing",
-    "Offensive Security", "Defensive Security", "Digital Forensics",
-    "Incident Response", "Splunk", "SIEM", "Firewalls", "IDS/IPS", "Snort",
-    "Vulnerability Assessment", "OpenVAS", "Nessus", "CyberChef",
-    "YARA", "Malware Analysis", "CAPA", "Static Analysis"
-]
-
-
-def build_readme_section():
-    rooms_md = "\n".join(
-        [f"- [{r['title']}]({r['url']})" for r in COMPLETED_ROOMS]
-    )
-    badges_md = "\n".join([f"- {b}" for b in BADGES]) or "_Visit your profile → Badges tab to see all 16 badges!_"
-    skills_md = ", ".join(SKILLS)
-    last_updated = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
-
-    section = f"""<!-- THM-STATS:START -->
-## 🛡️ TryHackMe Progress
-
-| Stat | Value |
-|------|-------|
-| 👤 Username | [{USERNAME}](https://tryhackme.com/p/{USERNAME}) |
-| 🏆 Rank | {RANK} (#{RANK_POSITION} — Top {TOP_PERCENT}) |
-| 💰 Points | {POINTS} |
-| 🔥 Current Streak | {STREAK} days |
-| ✅ Rooms Completed | {len(COMPLETED_ROOMS)} |
-| 🎖️ Badges Earned | {len(BADGES) or 16} |
-
-### 🧠 Skills Gained
-{skills_md}
-
-### 🎖️ Badges
-{badges_md}
-
-### 📚 Completed Rooms ({len(COMPLETED_ROOMS)})
-{rooms_md}
-
-> _Last updated: {last_updated}_
-<!-- THM-STATS:END -->"""
-
-    return section
-
-
-def update_readme(section, readme_path="README.md"):
-    try:
-        with open(readme_path, "r", encoding="utf-8") as f:
-            content = f.read()
-    except FileNotFoundError:
-        content = "# My CyberSecurity Journey\n\n"
-
-    pattern = r"<!-- THM-STATS:START -->.*?<!-- THM-STATS:END -->"
-    if re.search(pattern, content, re.DOTALL):
-        content = re.sub(pattern, section, content, flags=re.DOTALL)
-    else:
-        content += f"\n\n{section}\n"
-
-    with open(readme_path, "w", encoding="utf-8") as f:
-        f.write(content)
-
-    print("✅ README.md updated successfully.")
-
-
-if __name__ == "__main__":
-    section = build_readme_section()
-    update_readme(section)
