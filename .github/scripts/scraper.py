@@ -1,13 +1,13 @@
 import re
 from datetime import datetime
 
-# ✏️ UPDATED FROM PROFILE SCREENSHOT & REMNUX: GETTING STARTED DEBRIEF
+# ✏️ UPDATED FROM PROFILE SCREENSHOT & CARNAGE / FLAREVM: ARSENAL OF TOOLS DEBRIEF
 USERNAME = "ayomiolutoye"
-POINTS = 46          # Matches THM profile header
-STREAK = 113          # 113-day active streak
-RANK = "[0x9] MAGE"
-RANK_POSITION = 88707 # Updated rank position
-TOP_PERCENT = "4%"
+POINTS = 47            # Matches THM profile header
+STREAK = 116            # 116-day active streak
+RANK = "[0xA] WIZARD"
+RANK_POSITION = 74508   # Updated rank position
+TOP_PERCENT = "3%"
 
 COMPLETED_ROOMS = [
     {"title": "How Websites Work", "url": "https://tryhackme.com/room/howwebsiteswork"},
@@ -92,6 +92,8 @@ COMPLETED_ROOMS = [
     {"title": "CyberChef: The Basics", "url": "https://tryhackme.com/room/cyberchefbasics"},
     {"title": "CAPA: The Basics", "url": "https://tryhackme.com/room/capathebasics"},
     {"title": "REMnux: Getting Started", "url": "https://tryhackme.com/room/remnuxgettingstarted"},
+    {"title": "Carnage", "url": "https://tryhackme.com/room/carnage"},
+    {"title": "FlareVM: Arsenal of Tools", "url": "https://tryhackme.com/room/flarevmarsenal"},
 ]
 
 BADGES = [
@@ -111,6 +113,7 @@ BADGES = [
     "🔥 90 Day Streak — Hacking for 90 days in a row",
     "🔬 Network Hog — Sniffed out malicious traffic in the network",
     "📱 First Mobile Quiz — Completing your first quiz or recap on the mobile app (Rare: 2.4%)",
+    "🛡️ Shield Apprentice — Completing the FlareVM room",
 ]
 
 SKILLS = [
@@ -123,7 +126,8 @@ SKILLS = [
     "Vulnerability Assessment", "OpenVAS", "Nessus", "CyberChef",
     "YARA", "Malware Analysis", "CAPA", "Static Analysis",
     "REMnux", "Volatility3", "Memory Forensics", "oledump.py",
-    "OLE/Document Analysis", "Network Traffic Simulation (INetSim)"
+    "OLE/Document Analysis", "Network Traffic Simulation (INetSim)",
+    "Malware Triage Tooling (FlareVM)"
 ]
 
 
@@ -131,7 +135,7 @@ def build_readme_section():
     rooms_md = "\n".join(
         [f"- [{r['title']}]({r['url']})" for r in COMPLETED_ROOMS]
     )
-    badges_md = "\n".join([f"- {b}" for b in BADGES]) or "_Visit your profile → Badges tab to see all 16 badges!_"
+    badges_md = "\n".join([f"- {b}" for b in BADGES]) or "_Visit your profile → Badges tab to see all badges!_"
     skills_md = ", ".join(SKILLS)
     last_updated = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
 
@@ -145,7 +149,7 @@ def build_readme_section():
 | 💰 Points | {POINTS} |
 | 🔥 Current Streak | {STREAK} days |
 | ✅ Rooms Completed | {len(COMPLETED_ROOMS)} |
-| 🎖️ Badges Earned | {len(BADGES) or 16} |
+| 🎖️ Badges Earned | {len(BADGES)} |
 
 ### 🧠 Skills Gained
 {skills_md}
