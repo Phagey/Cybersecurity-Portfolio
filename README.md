@@ -119,5 +119,5 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - [CAPA: The Basics](https://tryhackme.com/room/capathebasics)
 - [REMnux: Getting Started](https://tryhackme.com/room/remnuxgettingstarted)
 
-> _Last updated: 2026-07-31 03:28 UTC_
+> _Last updated: 2026-08-01 03:27 UTC_
 <!-- THM-STATS:END -->
