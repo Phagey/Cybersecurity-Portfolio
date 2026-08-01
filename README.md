@@ -8,14 +8,14 @@ Tracking my cybersecurity learning journey
 | Stat | Value |
 |------|-------|
 | 👤 Username | [ayomiolutoye](https://tryhackme.com/p/ayomiolutoye) |
-| 🏆 Rank | [0x9] MAGE (#88707 — Top 4%) |
-| 💰 Points | 46 |
-| 🔥 Current Streak | 113 days |
-| ✅ Rooms Completed | 82 |
-| 🎖️ Badges Earned | 16 |
+| 🏆 Rank | [0xA] WIZARD (#74508 — Top 3%) |
+| 💰 Points | 47 |
+| 🔥 Current Streak | 116 days |
+| ✅ Rooms Completed | 84 |
+| 🎖️ Badges Earned | 17 |
 
 ### 🧠 Skills Gained
-Networking, Linux, Windows, Active Directory, Web Application Security, Cryptography, SQL, Nmap, Metasploit, Wireshark, Tcpdump, PowerShell, Python, JavaScript, Cloud Computing, Offensive Security, Defensive Security, Digital Forensics, Incident Response, Splunk, SIEM, Firewalls, IDS/IPS, Snort, Vulnerability Assessment, OpenVAS, Nessus, CyberChef, YARA, Malware Analysis, CAPA, Static Analysis, REMnux, Volatility3, Memory Forensics, oledump.py, OLE/Document Analysis, Network Traffic Simulation (INetSim)
+Networking, Linux, Windows, Active Directory, Web Application Security, Cryptography, SQL, Nmap, Metasploit, Wireshark, Tcpdump, PowerShell, Python, JavaScript, Cloud Computing, Offensive Security, Defensive Security, Digital Forensics, Incident Response, Splunk, SIEM, Firewalls, IDS/IPS, Snort, Vulnerability Assessment, OpenVAS, Nessus, CyberChef, YARA, Malware Analysis, CAPA, Static Analysis, REMnux, Volatility3, Memory Forensics, oledump.py, OLE/Document Analysis, Network Traffic Simulation (INetSim), Malware Triage Tooling (FlareVM)
 
 ### 🎖️ Badges
 - 🎯 First Four — Completing four rooms in your first week
@@ -34,8 +34,9 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - 🔥 90 Day Streak — Hacking for 90 days in a row
 - 🔬 Network Hog — Sniffed out malicious traffic in the network
 - 📱 First Mobile Quiz — Completing your first quiz or recap on the mobile app (Rare: 2.4%)
+- 🛡️ Shield Apprentice — Completing the FlareVM room
 
-### 📚 Completed Rooms (82)
+### 📚 Completed Rooms (84)
 - [How Websites Work](https://tryhackme.com/room/howwebsiteswork)
 - [Putting it all together](https://tryhackme.com/room/puttingitalltogether)
 - [DNS in Detail](https://tryhackme.com/room/dnsindetail)
@@ -118,6 +119,8 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - [CyberChef: The Basics](https://tryhackme.com/room/cyberchefbasics)
 - [CAPA: The Basics](https://tryhackme.com/room/capathebasics)
 - [REMnux: Getting Started](https://tryhackme.com/room/remnuxgettingstarted)
+- [Carnage](https://tryhackme.com/room/carnage)
+- [FlareVM: Arsenal of Tools](https://tryhackme.com/room/flarevmarsenal)
 
-> _Last updated: 2026-08-01 03:27 UTC_
+> _Last updated: 2026-08-01 21:24 UTC_
 <!-- THM-STATS:END -->
