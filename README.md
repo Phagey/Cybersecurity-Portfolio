@@ -122,5 +122,5 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - [Carnage](https://tryhackme.com/room/carnage)
 - [FlareVM: Arsenal of Tools](https://tryhackme.com/room/flarevmarsenal)
 
-> _Last updated: 2026-08-01 21:24 UTC_
+> _Last updated: 2026-08-02 03:26 UTC_
 <!-- THM-STATS:END -->
