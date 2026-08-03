@@ -8,14 +8,14 @@ Tracking my cybersecurity learning journey
 | Stat | Value |
 |------|-------|
 | 👤 Username | [ayomiolutoye](https://tryhackme.com/p/ayomiolutoye) |
-| 🏆 Rank | [0xA] WIZARD (#74508 — Top 3%) |
-| 💰 Points | 47 |
-| 🔥 Current Streak | 116 days |
+| 🏆 Rank | [0xA] WIZARD (#71733 — Top 3%) |
+| 💰 Points | 56 |
+| 🔥 Current Streak | 118 days |
 | ✅ Rooms Completed | 84 |
 | 🎖️ Badges Earned | 17 |
 
 ### 🧠 Skills Gained
-Networking, Linux, Windows, Active Directory, Web Application Security, Cryptography, SQL, Nmap, Metasploit, Wireshark, Tcpdump, PowerShell, Python, JavaScript, Cloud Computing, Offensive Security, Defensive Security, Digital Forensics, Incident Response, Splunk, SIEM, Firewalls, IDS/IPS, Snort, Vulnerability Assessment, OpenVAS, Nessus, CyberChef, YARA, Malware Analysis, CAPA, Static Analysis, REMnux, Volatility3, Memory Forensics, oledump.py, OLE/Document Analysis, Network Traffic Simulation (INetSim), Malware Triage Tooling (FlareVM)
+Networking, Linux, Windows, Active Directory, Web Application Security, Cryptography, SQL, Nmap, Metasploit, Wireshark, Tcpdump, PowerShell, Python, JavaScript, Cloud Computing, Offensive Security, Defensive Security, Digital Forensics, Incident Response, Splunk, SIEM, Firewalls, IDS/IPS, Snort, Vulnerability Assessment, OpenVAS, Nessus, CyberChef, YARA, Malware Analysis, CAPA, Static Analysis, REMnux, Volatility3, Memory Forensics, oledump.py, OLE/Document Analysis, Network Traffic Simulation (INetSim), Malware Triage Tooling (FlareVM), Security Principles
 
 ### 🎖️ Badges
 - 🎯 First Four — Completing four rooms in your first week
@@ -56,7 +56,6 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - [Operating System Security](https://tryhackme.com/room/operatingsystemsecurity)
 - [Search Skills](https://tryhackme.com/room/searchskills)
 - [Operating Systems: Introduction](https://tryhackme.com/room/operatingsystemsintroduction)
-- [Search Skills](https://tryhackme.com/room/searchskillscS)
 - [Linux CLI Basics](https://tryhackme.com/room/linuxclibasics)
 - [Data Representation](https://tryhackme.com/room/datarepresentation)
 - [Data Encoding](https://tryhackme.com/room/dataencoding)
@@ -121,6 +120,7 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - [REMnux: Getting Started](https://tryhackme.com/room/remnuxgettingstarted)
 - [Carnage](https://tryhackme.com/room/carnage)
 - [FlareVM: Arsenal of Tools](https://tryhackme.com/room/flarevmarsenal)
+- [Security Principles](https://tryhackme.com/room/securityprinciples)
 
-> _Last updated: 2026-08-03 03:29 UTC_
+> _Last updated: 2026-08-03 15:30 UTC_
 <!-- THM-STATS:END -->
