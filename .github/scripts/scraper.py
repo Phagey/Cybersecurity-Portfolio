@@ -1,12 +1,12 @@
 import re
 from datetime import datetime
 
-# ✏️ UPDATED FROM PROFILE SCREENSHOT & CARNAGE / FLAREVM: ARSENAL OF TOOLS DEBRIEF
+# ✏️ UPDATED FROM PROFILE SCREENSHOT & SECURITY PRINCIPLES ROOM COMPLETION DEBRIEF
 USERNAME = "ayomiolutoye"
-POINTS = 47            # Matches THM profile header
-STREAK = 116            # 116-day active streak
+POINTS = 56             # Matches THM profile header (47 + 9 earned from Security Principles)
+STREAK = 118            # 118-day active streak
 RANK = "[0xA] WIZARD"
-RANK_POSITION = 74508   # Updated rank position
+RANK_POSITION = 71733   # Updated rank position
 TOP_PERCENT = "3%"
 
 COMPLETED_ROOMS = [
@@ -29,7 +29,6 @@ COMPLETED_ROOMS = [
     {"title": "Operating System Security", "url": "https://tryhackme.com/room/operatingsystemsecurity"},
     {"title": "Search Skills", "url": "https://tryhackme.com/room/searchskills"},
     {"title": "Operating Systems: Introduction", "url": "https://tryhackme.com/room/operatingsystemsintroduction"},
-    {"title": "Search Skills", "url": "https://tryhackme.com/room/searchskillscS"},
     {"title": "Linux CLI Basics", "url": "https://tryhackme.com/room/linuxclibasics"},
     {"title": "Data Representation", "url": "https://tryhackme.com/room/datarepresentation"},
     {"title": "Data Encoding", "url": "https://tryhackme.com/room/dataencoding"},
@@ -94,6 +93,7 @@ COMPLETED_ROOMS = [
     {"title": "REMnux: Getting Started", "url": "https://tryhackme.com/room/remnuxgettingstarted"},
     {"title": "Carnage", "url": "https://tryhackme.com/room/carnage"},
     {"title": "FlareVM: Arsenal of Tools", "url": "https://tryhackme.com/room/flarevmarsenal"},
+    {"title": "Security Principles", "url": "https://tryhackme.com/room/securityprinciples"},
 ]
 
 BADGES = [
@@ -127,7 +127,7 @@ SKILLS = [
     "YARA", "Malware Analysis", "CAPA", "Static Analysis",
     "REMnux", "Volatility3", "Memory Forensics", "oledump.py",
     "OLE/Document Analysis", "Network Traffic Simulation (INetSim)",
-    "Malware Triage Tooling (FlareVM)"
+    "Malware Triage Tooling (FlareVM)", "Security Principles"
 ]
 
 
