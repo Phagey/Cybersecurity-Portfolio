@@ -1,12 +1,12 @@
 import re
 from datetime import datetime
 
-# ✏️ UPDATED FROM OWASP TOP 10 2025 & RECENT ROOM COMPLETIONS
+# ✏️ UPDATED FROM THM PROFILE SCREENSHOT
 USERNAME = "ayomiolutoye"
-POINTS = 168            # Updated: 56 + 24 + 32 + 56
-STREAK = 119            # Active streak updated from screenshots
+POINTS = 168            # Points value from recent rooms
+STREAK = 119            # Active streak count
 RANK = "[0xA] WIZARD"
-RANK_POSITION = 71733   # Update if your rank position shifted on profile
+RANK_POSITION = 69308   # Updated rank position from profile screenshot
 TOP_PERCENT = "3%"
 
 COMPLETED_ROOMS = [
@@ -119,6 +119,7 @@ BADGES = [
     "📱 First Mobile Quiz — Completing your first quiz or recap on the mobile app (Rare: 2.4%)",
     "🛡️ Shield Apprentice — Completing the FlareVM room",
     "🎓 Cyber Ready — Understanding impact of training on teams",
+    "🏷️ [Replace with 19th Badge Name from THM Badges Tab]",
 ]
 
 SKILLS = [
