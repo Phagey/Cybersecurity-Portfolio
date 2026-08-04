@@ -122,5 +122,5 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - [FlareVM: Arsenal of Tools](https://tryhackme.com/room/flarevmarsenal)
 - [Security Principles](https://tryhackme.com/room/securityprinciples)
 
-> _Last updated: 2026-08-03 15:30 UTC_
+> _Last updated: 2026-08-04 02:57 UTC_
 <!-- THM-STATS:END -->
