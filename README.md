@@ -9,13 +9,13 @@ Tracking my cybersecurity learning journey
 |------|-------|
 | 👤 Username | [ayomiolutoye](https://tryhackme.com/p/ayomiolutoye) |
 | 🏆 Rank | [0xA] WIZARD (#71733 — Top 3%) |
-| 💰 Points | 56 |
-| 🔥 Current Streak | 118 days |
-| ✅ Rooms Completed | 84 |
-| 🎖️ Badges Earned | 17 |
+| 💰 Points | 168 |
+| 🔥 Current Streak | 119 days |
+| ✅ Rooms Completed | 88 |
+| 🎖️ Badges Earned | 18 |
 
 ### 🧠 Skills Gained
-Networking, Linux, Windows, Active Directory, Web Application Security, Cryptography, SQL, Nmap, Metasploit, Wireshark, Tcpdump, PowerShell, Python, JavaScript, Cloud Computing, Offensive Security, Defensive Security, Digital Forensics, Incident Response, Splunk, SIEM, Firewalls, IDS/IPS, Snort, Vulnerability Assessment, OpenVAS, Nessus, CyberChef, YARA, Malware Analysis, CAPA, Static Analysis, REMnux, Volatility3, Memory Forensics, oledump.py, OLE/Document Analysis, Network Traffic Simulation (INetSim), Malware Triage Tooling (FlareVM), Security Principles
+Networking, Linux, Windows, Active Directory, Web Application Security, Cryptography, SQL, Nmap, Metasploit, Wireshark, Tcpdump, PowerShell, Python, JavaScript, Cloud Computing, Offensive Security, Defensive Security, Digital Forensics, Incident Response, Splunk, SIEM, Firewalls, IDS/IPS, Snort, Vulnerability Assessment, OpenVAS, Nessus, CyberChef, YARA, Malware Analysis, CAPA, Static Analysis, REMnux, Volatility3, Memory Forensics, oledump.py, OLE/Document Analysis, Network Traffic Simulation (INetSim), Malware Triage Tooling (FlareVM), Security Principles, OWASP Top 10, Insecure Data Handling, Application Design Flaws, IAAA Failures, SSTI, Secure Deserialization, Insecure Design
 
 ### 🎖️ Badges
 - 🎯 First Four — Completing four rooms in your first week
@@ -35,8 +35,9 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - 🔬 Network Hog — Sniffed out malicious traffic in the network
 - 📱 First Mobile Quiz — Completing your first quiz or recap on the mobile app (Rare: 2.4%)
 - 🛡️ Shield Apprentice — Completing the FlareVM room
+- 🎓 Cyber Ready — Understanding impact of training on teams
 
-### 📚 Completed Rooms (84)
+### 📚 Completed Rooms (88)
 - [How Websites Work](https://tryhackme.com/room/howwebsiteswork)
 - [Putting it all together](https://tryhackme.com/room/puttingitalltogether)
 - [DNS in Detail](https://tryhackme.com/room/dnsindetail)
@@ -121,6 +122,10 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - [Carnage](https://tryhackme.com/room/carnage)
 - [FlareVM: Arsenal of Tools](https://tryhackme.com/room/flarevmarsenal)
 - [Security Principles](https://tryhackme.com/room/securityprinciples)
+- [OWASP Top 10 2025: Insecure Data Handling](https://tryhackme.com/room/owasptop102025insecuredatahandling)
+- [OWASP Top 10 2025: Application Design Flaws](https://tryhackme.com/room/owasptop102025applicationdesignflaws)
+- [OWASP Top 10 2025: IAAA Failures](https://tryhackme.com/room/owasptop102025iaaafailures)
+- [Training Impact on Teams](https://tryhackme.com/room/trainingimpactonteams)
 
-> _Last updated: 2026-08-04 02:57 UTC_
+> _Last updated: 2026-08-04 14:17 UTC_
 <!-- THM-STATS:END -->
