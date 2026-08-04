@@ -8,11 +8,11 @@ Tracking my cybersecurity learning journey
 | Stat | Value |
 |------|-------|
 | 👤 Username | [ayomiolutoye](https://tryhackme.com/p/ayomiolutoye) |
-| 🏆 Rank | [0xA] WIZARD (#71733 — Top 3%) |
+| 🏆 Rank | [0xA] WIZARD (#69308 — Top 3%) |
 | 💰 Points | 168 |
 | 🔥 Current Streak | 119 days |
 | ✅ Rooms Completed | 88 |
-| 🎖️ Badges Earned | 18 |
+| 🎖️ Badges Earned | 19 |
 
 ### 🧠 Skills Gained
 Networking, Linux, Windows, Active Directory, Web Application Security, Cryptography, SQL, Nmap, Metasploit, Wireshark, Tcpdump, PowerShell, Python, JavaScript, Cloud Computing, Offensive Security, Defensive Security, Digital Forensics, Incident Response, Splunk, SIEM, Firewalls, IDS/IPS, Snort, Vulnerability Assessment, OpenVAS, Nessus, CyberChef, YARA, Malware Analysis, CAPA, Static Analysis, REMnux, Volatility3, Memory Forensics, oledump.py, OLE/Document Analysis, Network Traffic Simulation (INetSim), Malware Triage Tooling (FlareVM), Security Principles, OWASP Top 10, Insecure Data Handling, Application Design Flaws, IAAA Failures, SSTI, Secure Deserialization, Insecure Design
@@ -36,6 +36,7 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - 📱 First Mobile Quiz — Completing your first quiz or recap on the mobile app (Rare: 2.4%)
 - 🛡️ Shield Apprentice — Completing the FlareVM room
 - 🎓 Cyber Ready — Understanding impact of training on teams
+- 🏷️ [Replace with 19th Badge Name from THM Badges Tab]
 
 ### 📚 Completed Rooms (88)
 - [How Websites Work](https://tryhackme.com/room/howwebsiteswork)
@@ -127,5 +128,5 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - [OWASP Top 10 2025: IAAA Failures](https://tryhackme.com/room/owasptop102025iaaafailures)
 - [Training Impact on Teams](https://tryhackme.com/room/trainingimpactonteams)
 
-> _Last updated: 2026-08-04 14:17 UTC_
+> _Last updated: 2026-08-04 14:25 UTC_
 <!-- THM-STATS:END -->
