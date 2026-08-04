@@ -1,12 +1,12 @@
 import re
 from datetime import datetime
 
-# ✏️ UPDATED FROM PROFILE SCREENSHOT & SECURITY PRINCIPLES ROOM COMPLETION DEBRIEF
+# ✏️ UPDATED FROM OWASP TOP 10 2025 & RECENT ROOM COMPLETIONS
 USERNAME = "ayomiolutoye"
-POINTS = 56             # Matches THM profile header (47 + 9 earned from Security Principles)
-STREAK = 118            # 118-day active streak
+POINTS = 168            # Updated: 56 + 24 + 32 + 56
+STREAK = 119            # Active streak updated from screenshots
 RANK = "[0xA] WIZARD"
-RANK_POSITION = 71733   # Updated rank position
+RANK_POSITION = 71733   # Update if your rank position shifted on profile
 TOP_PERCENT = "3%"
 
 COMPLETED_ROOMS = [
@@ -94,6 +94,10 @@ COMPLETED_ROOMS = [
     {"title": "Carnage", "url": "https://tryhackme.com/room/carnage"},
     {"title": "FlareVM: Arsenal of Tools", "url": "https://tryhackme.com/room/flarevmarsenal"},
     {"title": "Security Principles", "url": "https://tryhackme.com/room/securityprinciples"},
+    {"title": "OWASP Top 10 2025: Insecure Data Handling", "url": "https://tryhackme.com/room/owasptop102025insecuredatahandling"},
+    {"title": "OWASP Top 10 2025: Application Design Flaws", "url": "https://tryhackme.com/room/owasptop102025applicationdesignflaws"},
+    {"title": "OWASP Top 10 2025: IAAA Failures", "url": "https://tryhackme.com/room/owasptop102025iaaafailures"},
+    {"title": "Training Impact on Teams", "url": "https://tryhackme.com/room/trainingimpactonteams"},
 ]
 
 BADGES = [
@@ -114,6 +118,7 @@ BADGES = [
     "🔬 Network Hog — Sniffed out malicious traffic in the network",
     "📱 First Mobile Quiz — Completing your first quiz or recap on the mobile app (Rare: 2.4%)",
     "🛡️ Shield Apprentice — Completing the FlareVM room",
+    "🎓 Cyber Ready — Understanding impact of training on teams",
 ]
 
 SKILLS = [
@@ -127,7 +132,9 @@ SKILLS = [
     "YARA", "Malware Analysis", "CAPA", "Static Analysis",
     "REMnux", "Volatility3", "Memory Forensics", "oledump.py",
     "OLE/Document Analysis", "Network Traffic Simulation (INetSim)",
-    "Malware Triage Tooling (FlareVM)", "Security Principles"
+    "Malware Triage Tooling (FlareVM)", "Security Principles",
+    "OWASP Top 10", "Insecure Data Handling", "Application Design Flaws",
+    "IAAA Failures", "SSTI", "Secure Deserialization", "Insecure Design"
 ]
 
 
