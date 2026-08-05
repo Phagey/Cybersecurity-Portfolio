@@ -128,5 +128,5 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - [OWASP Top 10 2025: IAAA Failures](https://tryhackme.com/room/owasptop102025iaaafailures)
 - [Training Impact on Teams](https://tryhackme.com/room/trainingimpactonteams)
 
-> _Last updated: 2026-08-04 14:25 UTC_
+> _Last updated: 2026-08-05 02:53 UTC_
 <!-- THM-STATS:END -->
