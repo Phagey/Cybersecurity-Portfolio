@@ -1,12 +1,12 @@
 import re
 from datetime import datetime
 
-# ✏️ UPDATED FROM THM PROFILE SCREENSHOT
+# ✏️ UPDATED FROM THM PROFILE SCREENSHOTS
 USERNAME = "ayomiolutoye"
 POINTS = 168            # Points value from recent rooms
-STREAK = 119            # Active streak count
+STREAK = 121            # Active streak count
 RANK = "[0xA] WIZARD"
-RANK_POSITION = 69308   # Updated rank position from profile screenshot
+RANK_POSITION = 67550   # Updated rank position from profile screenshot
 TOP_PERCENT = "3%"
 
 COMPLETED_ROOMS = [
@@ -98,6 +98,9 @@ COMPLETED_ROOMS = [
     {"title": "OWASP Top 10 2025: Application Design Flaws", "url": "https://tryhackme.com/room/owasptop102025applicationdesignflaws"},
     {"title": "OWASP Top 10 2025: IAAA Failures", "url": "https://tryhackme.com/room/owasptop102025iaaafailures"},
     {"title": "Training Impact on Teams", "url": "https://tryhackme.com/room/trainingimpactonteams"},
+    {"title": "SOC Role in Blue Team", "url": "https://tryhackme.com/room/socroleinblueteam"},
+    {"title": "Humans as Attack Vectors", "url": "https://tryhackme.com/room/humansasattackvectors"},
+    {"title": "Systems as Attack Vectors", "url": "https://tryhackme.com/room/systemsasattackvectors"},
 ]
 
 BADGES = [
@@ -119,7 +122,8 @@ BADGES = [
     "📱 First Mobile Quiz — Completing your first quiz or recap on the mobile app (Rare: 2.4%)",
     "🛡️ Shield Apprentice — Completing the FlareVM room",
     "🎓 Cyber Ready — Understanding impact of training on teams",
-    "🏷️ [Replace with 19th Badge Name from THM Badges Tab]",
+    "🔥 100 Day Streak — Hacking for 100 days in a row",
+    "🛡️ First Step into SOC — Explored emerging threats and SOC response",
 ]
 
 SKILLS = [
@@ -135,7 +139,8 @@ SKILLS = [
     "OLE/Document Analysis", "Network Traffic Simulation (INetSim)",
     "Malware Triage Tooling (FlareVM)", "Security Principles",
     "OWASP Top 10", "Insecure Data Handling", "Application Design Flaws",
-    "IAAA Failures", "SSTI", "Secure Deserialization", "Insecure Design"
+    "IAAA Failures", "SSTI", "Secure Deserialization", "Insecure Design",
+    "Human Attack Vectors", "System Attack Vectors", "SOC Operations"
 ]
 
 
