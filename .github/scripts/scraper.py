@@ -1,12 +1,12 @@
 import re
 from datetime import datetime
 
-# ✏️ UPDATED FROM THM PROFILE SCREENSHOTS
+# ✏️ UPDATED FROM THM PROFILE & ROOM COMPLETION SCREENSHOTS
 USERNAME = "ayomiolutoye"
 POINTS = 168            # Points value from recent rooms
-STREAK = 121            # Active streak count
+STREAK = 122            # Updated active streak count
 RANK = "[0xA] WIZARD"
-RANK_POSITION = 67550   # Updated rank position from profile screenshot
+RANK_POSITION = 66195   # Updated rank position from profile screenshot
 TOP_PERCENT = "3%"
 
 COMPLETED_ROOMS = [
@@ -101,6 +101,7 @@ COMPLETED_ROOMS = [
     {"title": "SOC Role in Blue Team", "url": "https://tryhackme.com/room/socroleinblueteam"},
     {"title": "Humans as Attack Vectors", "url": "https://tryhackme.com/room/humansasattackvectors"},
     {"title": "Systems as Attack Vectors", "url": "https://tryhackme.com/room/systemsasattackvectors"},
+    {"title": "SOC L1 Alert Triage", "url": "https://tryhackme.com/room/socl1alerttriage"},
 ]
 
 BADGES = [
@@ -140,7 +141,8 @@ SKILLS = [
     "Malware Triage Tooling (FlareVM)", "Security Principles",
     "OWASP Top 10", "Insecure Data Handling", "Application Design Flaws",
     "IAAA Failures", "SSTI", "Secure Deserialization", "Insecure Design",
-    "Human Attack Vectors", "System Attack Vectors", "SOC Operations"
+    "Human Attack Vectors", "System Attack Vectors", "SOC Operations",
+    "Alert Triage", "SOC Workflows"
 ]
 
 
