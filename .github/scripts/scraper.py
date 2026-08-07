@@ -1,12 +1,12 @@
 import re
 from datetime import datetime
 
-# ✏️ UPDATED FROM THM PROFILE & ROOM COMPLETION SCREENSHOTS
+# ✏️ UPDATED FROM THM PROFILE & ROOM HISTORY
 USERNAME = "ayomiolutoye"
-POINTS = 168            # Points value from recent rooms
-STREAK = 122            # Updated active streak count
+POINTS = 248            # 168 + 80 points earned from SOC L1 Alert Reporting
+STREAK = 122            # Active streak count
 RANK = "[0xA] WIZARD"
-RANK_POSITION = 66195   # Updated rank position from profile screenshot
+RANK_POSITION = 65632   # Updated rank position from profile screenshot
 TOP_PERCENT = "3%"
 
 COMPLETED_ROOMS = [
@@ -26,8 +26,8 @@ COMPLETED_ROOMS = [
     {"title": "Offensive Security Intro", "url": "https://tryhackme.com/room/offensivesecurityintro"},
     {"title": "Computer Types", "url": "https://tryhackme.com/room/computertypes"},
     {"title": "Defensive Security Intro", "url": "https://tryhackme.com/room/defensivesecurityintro"},
+    {"title": "Linux Fundamentals Part 1", "url": "https://tryhackme.com/room/linuxfundamentalspart1"},
     {"title": "Operating System Security", "url": "https://tryhackme.com/room/operatingsystemsecurity"},
-    {"title": "Search Skills", "url": "https://tryhackme.com/room/searchskills"},
     {"title": "Operating Systems: Introduction", "url": "https://tryhackme.com/room/operatingsystemsintroduction"},
     {"title": "Linux CLI Basics", "url": "https://tryhackme.com/room/linuxclibasics"},
     {"title": "Data Representation", "url": "https://tryhackme.com/room/datarepresentation"},
@@ -42,7 +42,6 @@ COMPLETED_ROOMS = [
     {"title": "Cryptography Concepts", "url": "https://tryhackme.com/room/cryptographyconcepts"},
     {"title": "Become a Hacker", "url": "https://tryhackme.com/room/becomeahacker"},
     {"title": "Become a Defender", "url": "https://tryhackme.com/room/becomeadefender"},
-    {"title": "Linux Fundamentals Part 1", "url": "https://tryhackme.com/room/linuxfundamentalspart1"},
     {"title": "Linux Fundamentals Part 2", "url": "https://tryhackme.com/room/linuxfundamentalspart2"},
     {"title": "Linux Fundamentals Part 3", "url": "https://tryhackme.com/room/linuxfundamentalspart3"},
     {"title": "Windows Fundamentals 1", "url": "https://tryhackme.com/room/windowsfundamentals1xbx"},
@@ -52,56 +51,58 @@ COMPLETED_ROOMS = [
     {"title": "Active Directory Basics", "url": "https://tryhackme.com/room/winadbasics"},
     {"title": "Windows Command Line", "url": "https://tryhackme.com/room/windowscommandline"},
     {"title": "Networking Concepts", "url": "https://tryhackme.com/room/networkingconcepts"},
+    {"title": "Tcpdump: The Basics", "url": "https://tryhackme.com/room/tcpdump"},
     {"title": "Networking Essentials", "url": "https://tryhackme.com/room/networkingessentials"},
     {"title": "Networking Core Protocols", "url": "https://tryhackme.com/room/networkingcoreprotocols"},
     {"title": "Networking Secure Protocols", "url": "https://tryhackme.com/room/networkingsecureprotocols"},
     {"title": "Windows PowerShell", "url": "https://tryhackme.com/room/windowspowershell"},
     {"title": "Linux Shells", "url": "https://tryhackme.com/room/linuxshells"},
+    {"title": "Search Skills", "url": "https://tryhackme.com/room/searchskills"},
     {"title": "Blue", "url": "https://tryhackme.com/room/blue"},
+    {"title": "Hydra", "url": "https://tryhackme.com/room/hydra"},
     {"title": "John the Ripper: The Basics", "url": "https://tryhackme.com/room/johntheripperbasics"},
     {"title": "Metasploit: Exploitation", "url": "https://tryhackme.com/room/metasploitexploitation"},
     {"title": "Metasploit: Introduction", "url": "https://tryhackme.com/room/metasploitintro"},
     {"title": "Metasploit: Meterpreter", "url": "https://tryhackme.com/room/meterpreter"},
+    {"title": "Burp Suite: The Basics", "url": "https://tryhackme.com/room/burpsuitebasics"},
     {"title": "Moniker Link (CVE-2024-21413)", "url": "https://tryhackme.com/room/monikerlink"},
     {"title": "Nmap: The Basics", "url": "https://tryhackme.com/room/nmap"},
-    {"title": "Tcpdump: The Basics", "url": "https://tryhackme.com/room/tcpdump"},
     {"title": "Public Key Cryptography Basics", "url": "https://tryhackme.com/room/publickeycrypto"},
     {"title": "Cryptography Basics", "url": "https://tryhackme.com/room/cryptographybasics"},
     {"title": "Hashing Basics", "url": "https://tryhackme.com/room/hashingbasics"},
+    {"title": "Gobuster: The Basics", "url": "https://tryhackme.com/room/gobusterthebasics"},
     {"title": "JavaScript Essentials", "url": "https://tryhackme.com/room/javascriptessentials"},
     {"title": "Web Application Basics", "url": "https://tryhackme.com/room/webapplicationbasics"},
     {"title": "SQL Fundamentals", "url": "https://tryhackme.com/room/sqlfundamentals"},
-    {"title": "Hydra", "url": "https://tryhackme.com/room/hydra"},
-    {"title": "Burp Suite: The Basics", "url": "https://tryhackme.com/room/burpsuitebasics"},
-    {"title": "Gobuster: The Basics", "url": "https://tryhackme.com/room/gobusterthebasics"},
-    {"title": "SQLMap: The Basics", "url": "https://tryhackme.com/room/sqlmapthebasics"},
-    {"title": "Shells Overview", "url": "https://tryhackme.com/room/shellsoverview"},
-    {"title": "SOC Fundamentals", "url": "https://tryhackme.com/room/socfundamentals"},
-    {"title": "Digital Forensics Fundamentals", "url": "https://tryhackme.com/room/digitalforensicsfundamentals"},
-    {"title": "Incident Response Fundamentals", "url": "https://tryhackme.com/room/incidentresponsefundamentals"},
-    {"title": "Logs Fundamentals", "url": "https://tryhackme.com/room/logsfundamentals"},
     {"title": "Junior Security Analyst Intro", "url": "https://tryhackme.com/room/jrsecanalystintrouxo"},
-    {"title": "Splunk: The Basics", "url": "https://tryhackme.com/room/splunk101"},
-    {"title": "Firewall Fundamentals", "url": "https://tryhackme.com/room/firewallfundamentals"},
-    {"title": "IDS Fundamentals", "url": "https://tryhackme.com/room/idsfundamentals"},
-    {"title": "Vulnerability Scanner Overview", "url": "https://tryhackme.com/room/vulnerabilityscanneroverview"},
     {"title": "Snort", "url": "https://tryhackme.com/room/snort"},
     {"title": "Snort Challenge - The Basics", "url": "https://tryhackme.com/room/snortchallenges1"},
     {"title": "Introduction to SIEM", "url": "https://tryhackme.com/room/introtosiem"},
+    {"title": "Splunk: The Basics", "url": "https://tryhackme.com/room/splunk101"},
+    {"title": "Incident Response Fundamentals", "url": "https://tryhackme.com/room/incidentresponsefundamentals"},
+    {"title": "Logs Fundamentals", "url": "https://tryhackme.com/room/logsfundamentals"},
+    {"title": "SOC Fundamentals", "url": "https://tryhackme.com/room/socfundamentals"},
+    {"title": "Digital Forensics Fundamentals", "url": "https://tryhackme.com/room/digitalforensicsfundamentals"},
+    {"title": "Firewall Fundamentals", "url": "https://tryhackme.com/room/firewallfundamentals"},
+    {"title": "IDS Fundamentals", "url": "https://tryhackme.com/room/idsfundamentals"},
+    {"title": "Vulnerability Scanner Overview", "url": "https://tryhackme.com/room/vulnerabilityscanneroverview"},
     {"title": "CyberChef: The Basics", "url": "https://tryhackme.com/room/cyberchefbasics"},
     {"title": "CAPA: The Basics", "url": "https://tryhackme.com/room/capathebasics"},
-    {"title": "REMnux: Getting Started", "url": "https://tryhackme.com/room/remnuxgettingstarted"},
+    {"title": "SQLMap: The Basics", "url": "https://tryhackme.com/room/sqlmapthebasics"},
+    {"title": "Shells Overview", "url": "https://tryhackme.com/room/shellsoverview"},
     {"title": "Carnage", "url": "https://tryhackme.com/room/carnage"},
-    {"title": "FlareVM: Arsenal of Tools", "url": "https://tryhackme.com/room/flarevmarsenal"},
     {"title": "Security Principles", "url": "https://tryhackme.com/room/securityprinciples"},
-    {"title": "OWASP Top 10 2025: Insecure Data Handling", "url": "https://tryhackme.com/room/owasptop102025insecuredatahandling"},
-    {"title": "OWASP Top 10 2025: Application Design Flaws", "url": "https://tryhackme.com/room/owasptop102025applicationdesignflaws"},
-    {"title": "OWASP Top 10 2025: IAAA Failures", "url": "https://tryhackme.com/room/owasptop102025iaaafailures"},
+    {"title": "FlareVM: Arsenal of Tools", "url": "https://tryhackme.com/room/flarevmarsenal"},
+    {"title": "REMnux: Getting Started", "url": "https://tryhackme.com/room/remnuxgettingstarted"},
     {"title": "Training Impact on Teams", "url": "https://tryhackme.com/room/trainingimpactonteams"},
-    {"title": "SOC Role in Blue Team", "url": "https://tryhackme.com/room/socroleinblueteam"},
+    {"title": "SOC L1 Alert Triage", "url": "https://tryhackme.com/room/socl1alerttriage"},
+    {"title": "SOC L1 Alert Reporting", "url": "https://tryhackme.com/room/socl1alertreporting"},
     {"title": "Humans as Attack Vectors", "url": "https://tryhackme.com/room/humansasattackvectors"},
     {"title": "Systems as Attack Vectors", "url": "https://tryhackme.com/room/systemsasattackvectors"},
-    {"title": "SOC L1 Alert Triage", "url": "https://tryhackme.com/room/socl1alerttriage"},
+    {"title": "SOC Role in Blue Team", "url": "https://tryhackme.com/room/socroleinblueteam"},
+    {"title": "OWASP Top 10 2025: IAAA Failures", "url": "https://tryhackme.com/room/owasptop102025iaaafailures"},
+    {"title": "OWASP Top 10 2025: Application Design Flaws", "url": "https://tryhackme.com/room/owasptop102025applicationdesignflaws"},
+    {"title": "OWASP Top 10 2025: Insecure Data Handling", "url": "https://tryhackme.com/room/owasptop102025insecuredatahandling"},
 ]
 
 BADGES = [
@@ -142,7 +143,8 @@ SKILLS = [
     "OWASP Top 10", "Insecure Data Handling", "Application Design Flaws",
     "IAAA Failures", "SSTI", "Secure Deserialization", "Insecure Design",
     "Human Attack Vectors", "System Attack Vectors", "SOC Operations",
-    "Alert Triage", "SOC Workflows"
+    "Alert Triage", "SOC Workflows", "Alert Reporting", "Alert Escalation", 
+    "SOC Crisis Communication", "Five Ws Reporting"
 ]
 
 
