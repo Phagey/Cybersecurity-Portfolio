@@ -8,14 +8,14 @@ Tracking my cybersecurity learning journey
 | Stat | Value |
 |------|-------|
 | 👤 Username | [ayomiolutoye](https://tryhackme.com/p/ayomiolutoye) |
-| 🏆 Rank | [0xA] WIZARD (#67550 — Top 3%) |
+| 🏆 Rank | [0xA] WIZARD (#66195 — Top 3%) |
 | 💰 Points | 168 |
-| 🔥 Current Streak | 121 days |
-| ✅ Rooms Completed | 91 |
+| 🔥 Current Streak | 122 days |
+| ✅ Rooms Completed | 92 |
 | 🎖️ Badges Earned | 20 |
 
 ### 🧠 Skills Gained
-Networking, Linux, Windows, Active Directory, Web Application Security, Cryptography, SQL, Nmap, Metasploit, Wireshark, Tcpdump, PowerShell, Python, JavaScript, Cloud Computing, Offensive Security, Defensive Security, Digital Forensics, Incident Response, Splunk, SIEM, Firewalls, IDS/IPS, Snort, Vulnerability Assessment, OpenVAS, Nessus, CyberChef, YARA, Malware Analysis, CAPA, Static Analysis, REMnux, Volatility3, Memory Forensics, oledump.py, OLE/Document Analysis, Network Traffic Simulation (INetSim), Malware Triage Tooling (FlareVM), Security Principles, OWASP Top 10, Insecure Data Handling, Application Design Flaws, IAAA Failures, SSTI, Secure Deserialization, Insecure Design, Human Attack Vectors, System Attack Vectors, SOC Operations
+Networking, Linux, Windows, Active Directory, Web Application Security, Cryptography, SQL, Nmap, Metasploit, Wireshark, Tcpdump, PowerShell, Python, JavaScript, Cloud Computing, Offensive Security, Defensive Security, Digital Forensics, Incident Response, Splunk, SIEM, Firewalls, IDS/IPS, Snort, Vulnerability Assessment, OpenVAS, Nessus, CyberChef, YARA, Malware Analysis, CAPA, Static Analysis, REMnux, Volatility3, Memory Forensics, oledump.py, OLE/Document Analysis, Network Traffic Simulation (INetSim), Malware Triage Tooling (FlareVM), Security Principles, OWASP Top 10, Insecure Data Handling, Application Design Flaws, IAAA Failures, SSTI, Secure Deserialization, Insecure Design, Human Attack Vectors, System Attack Vectors, SOC Operations, Alert Triage, SOC Workflows
 
 ### 🎖️ Badges
 - 🎯 First Four — Completing four rooms in your first week
@@ -39,7 +39,7 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - 🔥 100 Day Streak — Hacking for 100 days in a row
 - 🛡️ First Step into SOC — Explored emerging threats and SOC response
 
-### 📚 Completed Rooms (91)
+### 📚 Completed Rooms (92)
 - [How Websites Work](https://tryhackme.com/room/howwebsiteswork)
 - [Putting it all together](https://tryhackme.com/room/puttingitalltogether)
 - [DNS in Detail](https://tryhackme.com/room/dnsindetail)
@@ -131,6 +131,7 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - [SOC Role in Blue Team](https://tryhackme.com/room/socroleinblueteam)
 - [Humans as Attack Vectors](https://tryhackme.com/room/humansasattackvectors)
 - [Systems as Attack Vectors](https://tryhackme.com/room/systemsasattackvectors)
+- [SOC L1 Alert Triage](https://tryhackme.com/room/socl1alerttriage)
 
-> _Last updated: 2026-08-07 02:52 UTC_
+> _Last updated: 2026-08-07 16:55 UTC_
 <!-- THM-STATS:END -->
