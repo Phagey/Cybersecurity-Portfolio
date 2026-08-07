@@ -132,5 +132,5 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - [Humans as Attack Vectors](https://tryhackme.com/room/humansasattackvectors)
 - [Systems as Attack Vectors](https://tryhackme.com/room/systemsasattackvectors)
 
-> _Last updated: 2026-08-06 21:34 UTC_
+> _Last updated: 2026-08-07 02:52 UTC_
 <!-- THM-STATS:END -->
