@@ -134,5 +134,5 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - [OWASP Top 10 2025: Application Design Flaws](https://tryhackme.com/room/owasptop102025applicationdesignflaws)
 - [OWASP Top 10 2025: Insecure Data Handling](https://tryhackme.com/room/owasptop102025insecuredatahandling)
 
-> _Last updated: 2026-08-07 21:19 UTC_
+> _Last updated: 2026-08-08 01:57 UTC_
 <!-- THM-STATS:END -->
