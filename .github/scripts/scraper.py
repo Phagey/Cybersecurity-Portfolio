@@ -1,12 +1,12 @@
 import re
 from datetime import datetime
 
-# ✏️ UPDATED FROM THM PROFILE & ROOM HISTORY
+# ✏️ UPDATED FROM THM PROFILE SCREENSHOT & SOC WORKBOOKS COMPLETION
 USERNAME = "ayomiolutoye"
-POINTS = 248            # 168 + 80 points earned from SOC L1 Alert Reporting
-STREAK = 122            # Active streak count
+POINTS = 308            # Updated: 248 + 60 points earned from SOC Workbooks
+STREAK = 125            # Updated: 125 day streak
 RANK = "[0xA] WIZARD"
-RANK_POSITION = 65632   # Updated rank position from profile screenshot
+RANK_POSITION = 65150   # Updated: Rank 65,150
 TOP_PERCENT = "3%"
 
 COMPLETED_ROOMS = [
@@ -103,6 +103,7 @@ COMPLETED_ROOMS = [
     {"title": "OWASP Top 10 2025: IAAA Failures", "url": "https://tryhackme.com/room/owasptop102025iaaafailures"},
     {"title": "OWASP Top 10 2025: Application Design Flaws", "url": "https://tryhackme.com/room/owasptop102025applicationdesignflaws"},
     {"title": "OWASP Top 10 2025: Insecure Data Handling", "url": "https://tryhackme.com/room/owasptop102025insecuredatahandling"},
+    {"title": "SOC Workbooks", "url": "https://tryhackme.com/room/socworkbooks"},
 ]
 
 BADGES = [
@@ -144,7 +145,8 @@ SKILLS = [
     "IAAA Failures", "SSTI", "Secure Deserialization", "Insecure Design",
     "Human Attack Vectors", "System Attack Vectors", "SOC Operations",
     "Alert Triage", "SOC Workflows", "Alert Reporting", "Alert Escalation", 
-    "SOC Crisis Communication", "Five Ws Reporting"
+    "SOC Crisis Communication", "Five Ws Reporting", "Asset Lookup",
+    "Identity Lookup", "Network Diagrams", "SOC Workbooks"
 ]
 
 
