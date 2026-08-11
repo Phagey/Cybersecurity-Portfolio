@@ -135,5 +135,5 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - [OWASP Top 10 2025: Insecure Data Handling](https://tryhackme.com/room/owasptop102025insecuredatahandling)
 - [SOC Workbooks](https://tryhackme.com/room/socworkbooks)
 
-> _Last updated: 2026-08-10 22:59 UTC_
+> _Last updated: 2026-08-11 02:04 UTC_
 <!-- THM-STATS:END -->
