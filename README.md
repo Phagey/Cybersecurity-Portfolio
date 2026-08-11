@@ -8,14 +8,14 @@ Tracking my cybersecurity learning journey
 | Stat | Value |
 |------|-------|
 | 👤 Username | [ayomiolutoye](https://tryhackme.com/p/ayomiolutoye) |
-| 🏆 Rank | [0xA] WIZARD (#65150 — Top 3%) |
+| 🏆 Rank | [0xA] WIZARD (#64337 — Top 3%) |
 | 💰 Points | 308 |
-| 🔥 Current Streak | 125 days |
-| ✅ Rooms Completed | 94 |
-| 🎖️ Badges Earned | 20 |
+| 🔥 Current Streak | 126 days |
+| ✅ Rooms Completed | 95 |
+| 🎖️ Badges Earned | 22 |
 
 ### 🧠 Skills Gained
-Networking, Linux, Windows, Active Directory, Web Application Security, Cryptography, SQL, Nmap, Metasploit, Wireshark, Tcpdump, PowerShell, Python, JavaScript, Cloud Computing, Offensive Security, Defensive Security, Digital Forensics, Incident Response, Splunk, SIEM, Firewalls, IDS/IPS, Snort, Vulnerability Assessment, OpenVAS, Nessus, CyberChef, YARA, Malware Analysis, CAPA, Static Analysis, REMnux, Volatility3, Memory Forensics, oledump.py, OLE/Document Analysis, Network Traffic Simulation (INetSim), Malware Triage Tooling (FlareVM), Security Principles, OWASP Top 10, Insecure Data Handling, Application Design Flaws, IAAA Failures, SSTI, Secure Deserialization, Insecure Design, Human Attack Vectors, System Attack Vectors, SOC Operations, Alert Triage, SOC Workflows, Alert Reporting, Alert Escalation, SOC Crisis Communication, Five Ws Reporting, Asset Lookup, Identity Lookup, Network Diagrams, SOC Workbooks
+Networking, Linux, Windows, Active Directory, Web Application Security, Cryptography, SQL, Nmap, Metasploit, Wireshark, Tcpdump, PowerShell, Python, JavaScript, Cloud Computing, Offensive Security, Defensive Security, Digital Forensics, Incident Response, Splunk, SIEM, Firewalls, IDS/IPS, Snort, Vulnerability Assessment, OpenVAS, Nessus, CyberChef, YARA, Malware Analysis, CAPA, Static Analysis, REMnux, Volatility3, Memory Forensics, oledump.py, OLE/Document Analysis, Network Traffic Simulation (INetSim), Malware Triage Tooling (FlareVM), Security Principles, OWASP Top 10, Insecure Data Handling, Application Design Flaws, IAAA Failures, SSTI, Secure Deserialization, Insecure Design, Human Attack Vectors, System Attack Vectors, SOC Operations, Alert Triage, SOC Workflows, Alert Reporting, Alert Escalation, SOC Crisis Communication, Five Ws Reporting, Asset Lookup, Identity Lookup, Network Diagrams, SOC Workbooks, SOC Metrics & Objectives, MTTD / MTTR / MTTA Optimization, SLA Management
 
 ### 🎖️ Badges
 - 🎯 First Four — Completing four rooms in your first week
@@ -38,8 +38,10 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - 🎓 Cyber Ready — Understanding impact of training on teams
 - 🔥 100 Day Streak — Hacking for 100 days in a row
 - 🛡️ First Step into SOC — Explored emerging threats and SOC response
+- 📚 SOC Apprentice — Explored how a SOC team operates from inside (Rare: 1.8%)
+- 🔍 First alert closed — Closing your first alert (Rare: 2.6%)
 
-### 📚 Completed Rooms (94)
+### 📚 Completed Rooms (95)
 - [How Websites Work](https://tryhackme.com/room/howwebsiteswork)
 - [Putting it all together](https://tryhackme.com/room/puttingitalltogether)
 - [DNS in Detail](https://tryhackme.com/room/dnsindetail)
@@ -134,6 +136,7 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - [OWASP Top 10 2025: Application Design Flaws](https://tryhackme.com/room/owasptop102025applicationdesignflaws)
 - [OWASP Top 10 2025: Insecure Data Handling](https://tryhackme.com/room/owasptop102025insecuredatahandling)
 - [SOC Workbooks](https://tryhackme.com/room/socworkbooks)
+- [SOC Metrics and Objectives](https://tryhackme.com/room/socmetricsandobjectives)
 
-> _Last updated: 2026-08-11 02:04 UTC_
+> _Last updated: 2026-08-11 18:35 UTC_
 <!-- THM-STATS:END -->
