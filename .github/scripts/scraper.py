@@ -1,12 +1,12 @@
 import re
 from datetime import datetime
 
-# ✏️ UPDATED FROM THM PROFILE SCREENSHOT & SOC WORKBOOKS COMPLETION
+# ✏️ UPDATED FROM THM PROFILE SCREENSHOT & RECENT SOC ROOM COMPLETIONS
 USERNAME = "ayomiolutoye"
-POINTS = 308            # Updated: 248 + 60 points earned from SOC Workbooks
-STREAK = 125            # Updated: 125 day streak
+POINTS = 308            # THM Profile Points / Tickets
+STREAK = 126            # Updated: 126 day streak
 RANK = "[0xA] WIZARD"
-RANK_POSITION = 65150   # Updated: Rank 65,150
+RANK_POSITION = 64337   # Updated: Rank 64,337
 TOP_PERCENT = "3%"
 
 COMPLETED_ROOMS = [
@@ -104,6 +104,7 @@ COMPLETED_ROOMS = [
     {"title": "OWASP Top 10 2025: Application Design Flaws", "url": "https://tryhackme.com/room/owasptop102025applicationdesignflaws"},
     {"title": "OWASP Top 10 2025: Insecure Data Handling", "url": "https://tryhackme.com/room/owasptop102025insecuredatahandling"},
     {"title": "SOC Workbooks", "url": "https://tryhackme.com/room/socworkbooks"},
+    {"title": "SOC Metrics and Objectives", "url": "https://tryhackme.com/room/socmetricsandobjectives"},
 ]
 
 BADGES = [
@@ -127,6 +128,8 @@ BADGES = [
     "🎓 Cyber Ready — Understanding impact of training on teams",
     "🔥 100 Day Streak — Hacking for 100 days in a row",
     "🛡️ First Step into SOC — Explored emerging threats and SOC response",
+    "📚 SOC Apprentice — Explored how a SOC team operates from inside (Rare: 1.8%)",
+    "🔍 First alert closed — Closing your first alert (Rare: 2.6%)",
 ]
 
 SKILLS = [
@@ -146,7 +149,8 @@ SKILLS = [
     "Human Attack Vectors", "System Attack Vectors", "SOC Operations",
     "Alert Triage", "SOC Workflows", "Alert Reporting", "Alert Escalation", 
     "SOC Crisis Communication", "Five Ws Reporting", "Asset Lookup",
-    "Identity Lookup", "Network Diagrams", "SOC Workbooks"
+    "Identity Lookup", "Network Diagrams", "SOC Workbooks",
+    "SOC Metrics & Objectives", "MTTD / MTTR / MTTA Optimization", "SLA Management"
 ]
 
 
