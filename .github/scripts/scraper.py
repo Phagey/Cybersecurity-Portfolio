@@ -130,6 +130,8 @@ BADGES = [
     "🛡️ First Step into SOC — Explored emerging threats and SOC response",
     "📚 SOC Apprentice — Explored how a SOC team operates from inside (Rare: 1.8%)",
     "🔍 First alert closed — Closing your first alert (Rare: 2.6%)",
+    "🕹️ First scenario completed — Completing your first scenario (Rare: 2.1%)",
+    "🎯 100% true positive rate — Achieving 100% true positive rate in a scenario (Rare: 1.7%)",
 ]
 
 SKILLS = [
