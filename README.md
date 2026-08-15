@@ -140,5 +140,5 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - [SOC Workbooks](https://tryhackme.com/room/socworkbooks)
 - [SOC Metrics and Objectives](https://tryhackme.com/room/socmetricsandobjectives)
 
-> _Last updated: 2026-08-14 02:21 UTC_
+> _Last updated: 2026-08-15 01:34 UTC_
 <!-- THM-STATS:END -->
