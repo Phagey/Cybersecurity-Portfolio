@@ -3,10 +3,10 @@ from datetime import datetime
 
 # ✏️ UPDATED FROM THM PROFILE SCREENSHOT & RECENT SOC ROOM COMPLETIONS
 USERNAME = "ayomiolutoye"
-POINTS = 308            # THM Profile Points / Tickets
-STREAK = 126            # Updated: 126 day streak
+POINTS = 48             # Updated THM Tickets/Points
+STREAK = 135            # Updated: 135 day streak
 RANK = "[0xA] WIZARD"
-RANK_POSITION = 64337   # Updated: Rank 64,337
+RANK_POSITION = 61863   # Updated: Rank 61,863
 TOP_PERCENT = "3%"
 
 COMPLETED_ROOMS = [
@@ -105,6 +105,7 @@ COMPLETED_ROOMS = [
     {"title": "OWASP Top 10 2025: Insecure Data Handling", "url": "https://tryhackme.com/room/owasptop102025insecuredatahandling"},
     {"title": "SOC Workbooks", "url": "https://tryhackme.com/room/socworkbooks"},
     {"title": "SOC Metrics and Objectives", "url": "https://tryhackme.com/room/socmetricsandobjectives"},
+    {"title": "Introduction to EDR", "url": "https://tryhackme.com/room/introductiontoedr"},
 ]
 
 BADGES = [
@@ -152,7 +153,8 @@ SKILLS = [
     "Alert Triage", "SOC Workflows", "Alert Reporting", "Alert Escalation", 
     "SOC Crisis Communication", "Five Ws Reporting", "Asset Lookup",
     "Identity Lookup", "Network Diagrams", "SOC Workbooks",
-    "SOC Metrics & Objectives", "MTTD / MTTR / MTTA Optimization", "SLA Management"
+    "SOC Metrics & Objectives", "MTTD / MTTR / MTTA Optimization", "SLA Management",
+    "Endpoint Detection & Response (EDR)", "Behavioral Analysis", "Host Isolation & Containment"
 ]
 
 
