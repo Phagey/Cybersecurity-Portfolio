@@ -141,5 +141,5 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - [SOC Metrics and Objectives](https://tryhackme.com/room/socmetricsandobjectives)
 - [Introduction to EDR](https://tryhackme.com/room/introductiontoedr)
 
-> _Last updated: 2026-08-20 17:48 UTC_
+> _Last updated: 2026-08-21 01:39 UTC_
 <!-- THM-STATS:END -->
