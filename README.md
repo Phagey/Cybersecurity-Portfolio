@@ -142,5 +142,5 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - [Introduction to EDR](https://tryhackme.com/room/introductiontoedr)
 - [Elastic Stack: The Basics](https://tryhackme.com/room/elasticstackthebasics)
 
-> _Last updated: 2026-08-22 01:11 UTC_
+> _Last updated: 2026-08-22 01:28 UTC_
 <!-- THM-STATS:END -->
