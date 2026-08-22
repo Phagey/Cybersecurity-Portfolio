@@ -3,10 +3,10 @@ from datetime import datetime
 
 # ✏️ UPDATED FROM THM PROFILE SCREENSHOT & RECENT SOC ROOM COMPLETIONS
 USERNAME = "ayomiolutoye"
-POINTS = 48             # Updated THM Tickets/Points
-STREAK = 135            # Updated: 135 day streak
+POINTS = 49          # Updated: 49 Tickets/Points
+STREAK = 137         # Updated: 137 day streak
 RANK = "[0xA] WIZARD"
-RANK_POSITION = 61863   # Updated: Rank 61,863
+RANK_POSITION = 61279  # Updated: Rank 61,279
 TOP_PERCENT = "3%"
 
 COMPLETED_ROOMS = [
@@ -106,6 +106,7 @@ COMPLETED_ROOMS = [
     {"title": "SOC Workbooks", "url": "https://tryhackme.com/room/socworkbooks"},
     {"title": "SOC Metrics and Objectives", "url": "https://tryhackme.com/room/socmetricsandobjectives"},
     {"title": "Introduction to EDR", "url": "https://tryhackme.com/room/introductiontoedr"},
+    {"title": "Elastic Stack: The Basics", "url": "https://tryhackme.com/room/elasticstackthebasics"},
 ]
 
 BADGES = [
@@ -154,7 +155,8 @@ SKILLS = [
     "SOC Crisis Communication", "Five Ws Reporting", "Asset Lookup",
     "Identity Lookup", "Network Diagrams", "SOC Workbooks",
     "SOC Metrics & Objectives", "MTTD / MTTR / MTTA Optimization", "SLA Management",
-    "Endpoint Detection & Response (EDR)", "Behavioral Analysis", "Host Isolation & Containment"
+    "Endpoint Detection & Response (EDR)", "Behavioral Analysis", "Host Isolation & Containment",
+    "Elasticsearch", "Kibana", "KQL (Kibana Query Language)", "Log Management & Analytics"
 ]
 
 
