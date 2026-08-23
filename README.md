@@ -8,14 +8,14 @@ Tracking my cybersecurity learning journey
 | Stat | Value |
 |------|-------|
 | 👤 Username | [ayomiolutoye](https://tryhackme.com/p/ayomiolutoye) |
-| 🏆 Rank | [0xA] WIZARD (#61279 — Top 3%) |
+| 🏆 Rank | [0xA] WIZARD (#61017 — Top 3%) |
 | 💰 Points | 49 |
-| 🔥 Current Streak | 137 days |
-| ✅ Rooms Completed | 97 |
-| 🎖️ Badges Earned | 24 |
+| 🔥 Current Streak | 138 days |
+| ✅ Rooms Completed | 98 |
+| 🎖️ Badges Earned | 25 |
 
 ### 🧠 Skills Gained
-Networking, Linux, Windows, Active Directory, Web Application Security, Cryptography, SQL, Nmap, Metasploit, Wireshark, Tcpdump, PowerShell, Python, JavaScript, Cloud Computing, Offensive Security, Defensive Security, Digital Forensics, Incident Response, Splunk, SIEM, Firewalls, IDS/IPS, Snort, Vulnerability Assessment, OpenVAS, Nessus, CyberChef, YARA, Malware Analysis, CAPA, Static Analysis, REMnux, Volatility3, Memory Forensics, oledump.py, OLE/Document Analysis, Network Traffic Simulation (INetSim), Malware Triage Tooling (FlareVM), Security Principles, OWASP Top 10, Insecure Data Handling, Application Design Flaws, IAAA Failures, SSTI, Secure Deserialization, Insecure Design, Human Attack Vectors, System Attack Vectors, SOC Operations, Alert Triage, SOC Workflows, Alert Reporting, Alert Escalation, SOC Crisis Communication, Five Ws Reporting, Asset Lookup, Identity Lookup, Network Diagrams, SOC Workbooks, SOC Metrics & Objectives, MTTD / MTTR / MTTA Optimization, SLA Management, Endpoint Detection & Response (EDR), Behavioral Analysis, Host Isolation & Containment, Elasticsearch, Kibana, KQL (Kibana Query Language), Log Management & Analytics
+Networking, Linux, Windows, Active Directory, Web Application Security, Cryptography, SQL, Nmap, Metasploit, Wireshark, Tcpdump, PowerShell, Python, JavaScript, Cloud Computing, Offensive Security, Defensive Security, Digital Forensics, Incident Response, Splunk, SIEM, Firewalls, IDS/IPS, Snort, Vulnerability Assessment, OpenVAS, Nessus, CyberChef, YARA, Malware Analysis, CAPA, Static Analysis, REMnux, Volatility3, Memory Forensics, oledump.py, OLE/Document Analysis, Network Traffic Simulation (INetSim), Malware Triage Tooling (FlareVM), Security Principles, OWASP Top 10, Insecure Data Handling, Application Design Flaws, IAAA Failures, SSTI, Secure Deserialization, Insecure Design, Human Attack Vectors, System Attack Vectors, SOC Operations, Alert Triage, SOC Workflows, Alert Reporting, Alert Escalation, SOC Crisis Communication, Five Ws Reporting, Asset Lookup, Identity Lookup, Network Diagrams, SOC Workbooks, SOC Metrics & Objectives, MTTD / MTTR / MTTA Optimization, SLA Management, Endpoint Detection & Response (EDR), Behavioral Analysis, Host Isolation & Containment, Elasticsearch, Kibana, KQL (Kibana Query Language), Log Management & Analytics, SOAR (Security Orchestration, Automation, and Response), Security Automation, Playbook Execution
 
 ### 🎖️ Badges
 - 🎯 First Four — Completing four rooms in your first week
@@ -42,8 +42,9 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - 🔍 First alert closed — Closing your first alert (Rare: 2.6%)
 - 🕹️ First scenario completed — Completing your first scenario (Rare: 2.1%)
 - 🎯 100% true positive rate — Achieving 100% true positive rate in a scenario (Rare: 1.7%)
+- 🛡️ Defensive Toolsmith — Mastered essential SOC tools for detection
 
-### 📚 Completed Rooms (97)
+### 📚 Completed Rooms (98)
 - [How Websites Work](https://tryhackme.com/room/howwebsiteswork)
 - [Putting it all together](https://tryhackme.com/room/puttingitalltogether)
 - [DNS in Detail](https://tryhackme.com/room/dnsindetail)
@@ -141,6 +142,7 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - [SOC Metrics and Objectives](https://tryhackme.com/room/socmetricsandobjectives)
 - [Introduction to EDR](https://tryhackme.com/room/introductiontoedr)
 - [Elastic Stack: The Basics](https://tryhackme.com/room/elasticstackthebasics)
+- [Introduction to SOAR](https://tryhackme.com/room/introductiontosoar)
 
-> _Last updated: 2026-08-23 01:42 UTC_
+> _Last updated: 2026-08-23 22:32 UTC_
 <!-- THM-STATS:END -->
