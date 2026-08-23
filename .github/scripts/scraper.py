@@ -4,9 +4,9 @@ from datetime import datetime
 # ✏️ UPDATED FROM THM PROFILE SCREENSHOT & RECENT SOC ROOM COMPLETIONS
 USERNAME = "ayomiolutoye"
 POINTS = 49          # Updated: 49 Tickets/Points
-STREAK = 137         # Updated: 137 day streak
+STREAK = 138         # Updated: 138 day streak
 RANK = "[0xA] WIZARD"
-RANK_POSITION = 61279  # Updated: Rank 61,279
+RANK_POSITION = 61017  # Updated: Rank 61,017
 TOP_PERCENT = "3%"
 
 COMPLETED_ROOMS = [
@@ -107,6 +107,7 @@ COMPLETED_ROOMS = [
     {"title": "SOC Metrics and Objectives", "url": "https://tryhackme.com/room/socmetricsandobjectives"},
     {"title": "Introduction to EDR", "url": "https://tryhackme.com/room/introductiontoedr"},
     {"title": "Elastic Stack: The Basics", "url": "https://tryhackme.com/room/elasticstackthebasics"},
+    {"title": "Introduction to SOAR", "url": "https://tryhackme.com/room/introductiontosoar"},
 ]
 
 BADGES = [
@@ -134,6 +135,7 @@ BADGES = [
     "🔍 First alert closed — Closing your first alert (Rare: 2.6%)",
     "🕹️ First scenario completed — Completing your first scenario (Rare: 2.1%)",
     "🎯 100% true positive rate — Achieving 100% true positive rate in a scenario (Rare: 1.7%)",
+    "🛡️ Defensive Toolsmith — Mastered essential SOC tools for detection",
 ]
 
 SKILLS = [
@@ -156,7 +158,8 @@ SKILLS = [
     "Identity Lookup", "Network Diagrams", "SOC Workbooks",
     "SOC Metrics & Objectives", "MTTD / MTTR / MTTA Optimization", "SLA Management",
     "Endpoint Detection & Response (EDR)", "Behavioral Analysis", "Host Isolation & Containment",
-    "Elasticsearch", "Kibana", "KQL (Kibana Query Language)", "Log Management & Analytics"
+    "Elasticsearch", "Kibana", "KQL (Kibana Query Language)", "Log Management & Analytics",
+    "SOAR (Security Orchestration, Automation, and Response)", "Security Automation", "Playbook Execution"
 ]
 
 
