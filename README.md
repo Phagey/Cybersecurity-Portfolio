@@ -144,5 +144,5 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - [Elastic Stack: The Basics](https://tryhackme.com/room/elasticstackthebasics)
 - [Introduction to SOAR](https://tryhackme.com/room/introductiontosoar)
 
-> _Last updated: 2026-08-23 22:32 UTC_
+> _Last updated: 2026-08-24 01:40 UTC_
 <!-- THM-STATS:END -->
