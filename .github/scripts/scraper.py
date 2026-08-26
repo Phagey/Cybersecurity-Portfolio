@@ -3,10 +3,10 @@ from datetime import datetime
 
 # ✏️ UPDATED FROM THM PROFILE SCREENSHOT & RECENT SOC ROOM COMPLETIONS
 USERNAME = "ayomiolutoye"
-POINTS = 49          # Updated: 49 Tickets/Points
-STREAK = 138         # Updated: 138 day streak
+POINTS = 49          # Tickets/Points
+STREAK = 141         # Updated: 141 day streak
 RANK = "[0xA] WIZARD"
-RANK_POSITION = 61017  # Updated: Rank 61,017
+RANK_POSITION = 59991  # Updated: Rank 59,991
 TOP_PERCENT = "3%"
 
 COMPLETED_ROOMS = [
@@ -108,6 +108,7 @@ COMPLETED_ROOMS = [
     {"title": "Introduction to EDR", "url": "https://tryhackme.com/room/introductiontoedr"},
     {"title": "Elastic Stack: The Basics", "url": "https://tryhackme.com/room/elasticstackthebasics"},
     {"title": "Introduction to SOAR", "url": "https://tryhackme.com/room/introductiontosoar"},
+    {"title": "Pyramid Of Pain", "url": "https://tryhackme.com/room/pyramidofpain"},
 ]
 
 BADGES = [
@@ -159,7 +160,8 @@ SKILLS = [
     "SOC Metrics & Objectives", "MTTD / MTTR / MTTA Optimization", "SLA Management",
     "Endpoint Detection & Response (EDR)", "Behavioral Analysis", "Host Isolation & Containment",
     "Elasticsearch", "Kibana", "KQL (Kibana Query Language)", "Log Management & Analytics",
-    "SOAR (Security Orchestration, Automation, and Response)", "Security Automation", "Playbook Execution"
+    "SOAR (Security Orchestration, Automation, and Response)", "Security Automation", "Playbook Execution",
+    "Pyramid of Pain", "Threat Intelligence", "TTP Mapping", "Adversary Disruption", "Indicator Analysis"
 ]
 
 
