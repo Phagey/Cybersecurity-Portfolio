@@ -145,5 +145,5 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - [Introduction to SOAR](https://tryhackme.com/room/introductiontosoar)
 - [Pyramid Of Pain](https://tryhackme.com/room/pyramidofpain)
 
-> _Last updated: 2026-08-27 08:33 UTC_
+> _Last updated: 2026-08-28 10:46 UTC_
 <!-- THM-STATS:END -->
