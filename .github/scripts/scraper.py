@@ -1,12 +1,12 @@
 import re
 from datetime import datetime
 
-# ✏️ UPDATED FROM THM PROFILE SCREENSHOT & RECENT SOC ROOM COMPLETIONS
+# ✏️ UPDATED FROM THM PROFILE SCREENSHOT & RECENT CYBER KILL CHAIN ROOM COMPLETION
 USERNAME = "ayomiolutoye"
 POINTS = 49          # Tickets/Points
-STREAK = 141         # Updated: 141 day streak
-RANK = "[0xA] WIZARD"
-RANK_POSITION = 59991  # Updated: Rank 59,991
+STREAK = 143         # Updated: 143 day streak
+RANK = "[0xB] MASTER" # Updated: Promoted to MASTER
+RANK_POSITION = 59591 # Updated: Rank 59,591
 TOP_PERCENT = "3%"
 
 COMPLETED_ROOMS = [
@@ -109,6 +109,7 @@ COMPLETED_ROOMS = [
     {"title": "Elastic Stack: The Basics", "url": "https://tryhackme.com/room/elasticstackthebasics"},
     {"title": "Introduction to SOAR", "url": "https://tryhackme.com/room/introductiontosoar"},
     {"title": "Pyramid Of Pain", "url": "https://tryhackme.com/room/pyramidofpain"},
+    {"title": "Cyber Kill Chain", "url": "https://tryhackme.com/room/cyberkillchain"},
 ]
 
 BADGES = [
@@ -161,7 +162,8 @@ SKILLS = [
     "Endpoint Detection & Response (EDR)", "Behavioral Analysis", "Host Isolation & Containment",
     "Elasticsearch", "Kibana", "KQL (Kibana Query Language)", "Log Management & Analytics",
     "SOAR (Security Orchestration, Automation, and Response)", "Security Automation", "Playbook Execution",
-    "Pyramid of Pain", "Threat Intelligence", "TTP Mapping", "Adversary Disruption", "Indicator Analysis"
+    "Pyramid of Pain", "Threat Intelligence", "TTP Mapping", "Adversary Disruption", "Indicator Analysis",
+    "Cyber Kill Chain", "Adversary Lifecycle Mapping", "Weaponization & Delivery Analysis", "C2 Infrastructure Analysis"
 ]
 
 
