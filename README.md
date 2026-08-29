@@ -146,5 +146,5 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - [Pyramid Of Pain](https://tryhackme.com/room/pyramidofpain)
 - [Cyber Kill Chain](https://tryhackme.com/room/cyberkillchain)
 
-> _Last updated: 2026-08-28 11:43 UTC_
+> _Last updated: 2026-08-29 06:33 UTC_
 <!-- THM-STATS:END -->
