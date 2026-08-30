@@ -1,12 +1,12 @@
 import re
 from datetime import datetime
 
-# ✏️ UPDATED FROM THM PROFILE SCREENSHOT & RECENT CYBER KILL CHAIN ROOM COMPLETION
+# UPDATED FROM THM PROFILE SCREENSHOT & RECENT UNIFIED KILL CHAIN ROOM COMPLETION
 USERNAME = "ayomiolutoye"
-POINTS = 49          # Tickets/Points
-STREAK = 143         # Updated: 143 day streak
-RANK = "[0xB] MASTER" # Updated: Promoted to MASTER
-RANK_POSITION = 59591 # Updated: Rank 59,591
+POINTS = 144         # Updated: 144 Points
+STREAK = 145         # Updated: 145 day streak
+RANK = "[0xB] MASTER"
+RANK_POSITION = 59591
 TOP_PERCENT = "3%"
 
 COMPLETED_ROOMS = [
@@ -110,34 +110,35 @@ COMPLETED_ROOMS = [
     {"title": "Introduction to SOAR", "url": "https://tryhackme.com/room/introductiontosoar"},
     {"title": "Pyramid Of Pain", "url": "https://tryhackme.com/room/pyramidofpain"},
     {"title": "Cyber Kill Chain", "url": "https://tryhackme.com/room/cyberkillchain"},
+    {"title": "Unified Kill Chain", "url": "https://tryhackme.com/room/unifiedkillchain"},
 ]
 
 BADGES = [
-    "🎯 First Four — Completing four rooms in your first week",
-    "🔥 3 Day Streak — Achieving a 3 day hacking streak",
-    "🌐 Networking Nerd — Completing the Network Fundamentals module",
-    "🔥 7 Day Streak — Achieving a 7 day hacking streak",
-    "🕸️ Webbed — Understands how the world wide web works",
-    "💻 World Wide Web — Completing the How The Web Works module",
-    "🐧 cat linux.txt — Being competent in Linux",
-    "🔥 30 Day Streak — Hacking for 30 days solid",
-    "📦 Session Held — Completing 4 weekly missions in a row (Rare: 1.9%)",
-    "🥇 Platinum League — Platinum League 1st place (Epic: 0.9%)",
-    "🛡️ Metasploitable — Contains the knowledge to use Metasploit (Rare: 9.6%)",
-    "🪟 Blue — Hacking into Windows via EternalBlue",
-    "🗡️ Sword Apprentice — Completing the SQLMap room",
-    "🔥 90 Day Streak — Hacking for 90 days in a row",
-    "🔬 Network Hog — Sniffed out malicious traffic in the network",
-    "📱 First Mobile Quiz — Completing your first quiz or recap on the mobile app (Rare: 2.4%)",
-    "🛡️ Shield Apprentice — Completing the FlareVM room",
-    "🎓 Cyber Ready — Understanding impact of training on teams",
-    "🔥 100 Day Streak — Hacking for 100 days in a row",
-    "🛡️ First Step into SOC — Explored emerging threats and SOC response",
-    "📚 SOC Apprentice — Explored how a SOC team operates from inside (Rare: 1.8%)",
-    "🔍 First alert closed — Closing your first alert (Rare: 2.6%)",
-    "🕹️ First scenario completed — Completing your first scenario (Rare: 2.1%)",
-    "🎯 100% true positive rate — Achieving 100% true positive rate in a scenario (Rare: 1.7%)",
-    "🛡️ Defensive Toolsmith — Mastered essential SOC tools for detection",
+    "First Four — Completing four rooms in your first week",
+    "3 Day Streak — Achieving a 3 day hacking streak",
+    "Networking Nerd — Completing the Network Fundamentals module",
+    "7 Day Streak — Achieving a 7 day hacking streak",
+    "Webbed — Understands how the world wide web works",
+    "World Wide Web — Completing the How The Web Works module",
+    "cat linux.txt — Being competent in Linux",
+    "30 Day Streak — Hacking for 30 days solid",
+    "Session Held — Completing 4 weekly missions in a row (Rare: 1.9%)",
+    "Platinum League — Platinum League 1st place (Epic: 0.9%)",
+    "Metasploitable — Contains the knowledge to use Metasploit (Rare: 9.6%)",
+    "Blue — Hacking into Windows via EternalBlue",
+    "Sword Apprentice — Completing the SQLMap room",
+    "90 Day Streak — Hacking for 90 days in a row",
+    "Network Hog — Sniffed out malicious traffic in the network",
+    "First Mobile Quiz — Completing your first quiz or recap on the mobile app (Rare: 2.4%)",
+    "Shield Apprentice — Completing the FlareVM room",
+    "Cyber Ready — Understanding impact of training on teams",
+    "100 Day Streak — Hacking for 100 days in a row",
+    "First Step into SOC — Explored emerging threats and SOC response",
+    "SOC Apprentice — Explored how a SOC team operates from inside (Rare: 1.8%)",
+    "First alert closed — Closing your first alert (Rare: 2.6%)",
+    "First scenario completed — Completing your first scenario (Rare: 2.1%)",
+    "100% true positive rate — Achieving 100% true positive rate in a scenario (Rare: 1.7%)",
+    "Defensive Toolsmith — Mastered essential SOC tools for detection",
 ]
 
 SKILLS = [
@@ -163,7 +164,8 @@ SKILLS = [
     "Elasticsearch", "Kibana", "KQL (Kibana Query Language)", "Log Management & Analytics",
     "SOAR (Security Orchestration, Automation, and Response)", "Security Automation", "Playbook Execution",
     "Pyramid of Pain", "Threat Intelligence", "TTP Mapping", "Adversary Disruption", "Indicator Analysis",
-    "Cyber Kill Chain", "Adversary Lifecycle Mapping", "Weaponization & Delivery Analysis", "C2 Infrastructure Analysis"
+    "Cyber Kill Chain", "Adversary Lifecycle Mapping", "Weaponization & Delivery Analysis", "C2 Infrastructure Analysis",
+    "Unified Kill Chain (UKC)", "Threat Modelling", "In-Through-Out Attack Lifecycle", "Pivoting Analysis", "Lateral Movement Analysis"
 ]
 
 
@@ -171,29 +173,29 @@ def build_readme_section():
     rooms_md = "\n".join(
         [f"- [{r['title']}]({r['url']})" for r in COMPLETED_ROOMS]
     )
-    badges_md = "\n".join([f"- {b}" for b in BADGES]) or "_Visit your profile → Badges tab to see all badges!_"
+    badges_md = "\n".join([f"- {b}" for b in BADGES]) or "_Visit your profile -> Badges tab to see all badges!_"
     skills_md = ", ".join(SKILLS)
     last_updated = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
 
     section = f"""<!-- THM-STATS:START -->
-## 🛡️ TryHackMe Progress
+## TryHackMe Progress
 
 | Stat | Value |
 |------|-------|
-| 👤 Username | [{USERNAME}](https://tryhackme.com/p/{USERNAME}) |
-| 🏆 Rank | {RANK} (#{RANK_POSITION} — Top {TOP_PERCENT}) |
-| 💰 Points | {POINTS} |
-| 🔥 Current Streak | {STREAK} days |
-| ✅ Rooms Completed | {len(COMPLETED_ROOMS)} |
-| 🎖️ Badges Earned | {len(BADGES)} |
+| Username | [{USERNAME}](https://tryhackme.com/p/{USERNAME}) |
+| Rank | {RANK} (#{RANK_POSITION} — Top {TOP_PERCENT}) |
+| Points | {POINTS} |
+| Current Streak | {STREAK} days |
+| Rooms Completed | {len(COMPLETED_ROOMS)} |
+| Badges Earned | {len(BADGES)} |
 
-### 🧠 Skills Gained
+### Skills Gained
 {skills_md}
 
-### 🎖️ Badges
+### Badges
 {badges_md}
 
-### 📚 Completed Rooms ({len(COMPLETED_ROOMS)})
+### Completed Rooms ({len(COMPLETED_ROOMS)})
 {rooms_md}
 
 > _Last updated: {last_updated}_
@@ -218,7 +220,7 @@ def update_readme(section, readme_path="README.md"):
     with open(readme_path, "w", encoding="utf-8") as f:
         f.write(content)
 
-    print("✅ README.md updated successfully.")
+    print("README.md updated successfully.")
 
 
 if __name__ == "__main__":
