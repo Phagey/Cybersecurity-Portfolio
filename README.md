@@ -147,5 +147,5 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - [Cyber Kill Chain](https://tryhackme.com/room/cyberkillchain)
 - [Unified Kill Chain](https://tryhackme.com/room/unifiedkillchain)
 
-> _Last updated: 2026-08-31 04:50 UTC_
+> _Last updated: 2026-09-01 04:29 UTC_
 <!-- THM-STATS:END -->
