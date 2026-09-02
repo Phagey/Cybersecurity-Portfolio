@@ -8,14 +8,14 @@ Tracking my cybersecurity learning journey
 | Stat | Value |
 |------|-------|
 | Username | [ayomiolutoye](https://tryhackme.com/p/ayomiolutoye) |
-| Rank | [0xB] MASTER (#59591 — Top 3%) |
-| Points | 144 |
-| Current Streak | 145 days |
-| Rooms Completed | 101 |
-| Badges Earned | 25 |
+| Rank | [0xB] MASTER (#56281 — Top 3%) |
+| Points | 50 |
+| Current Streak | 148 days |
+| Rooms Completed | 103 |
+| Badges Earned | 26 |
 
 ### Skills Gained
-Networking, Linux, Windows, Active Directory, Web Application Security, Cryptography, SQL, Nmap, Metasploit, Wireshark, Tcpdump, PowerShell, Python, JavaScript, Cloud Computing, Offensive Security, Defensive Security, Digital Forensics, Incident Response, Splunk, SIEM, Firewalls, IDS/IPS, Snort, Vulnerability Assessment, OpenVAS, Nessus, CyberChef, YARA, Malware Analysis, CAPA, Static Analysis, REMnux, Volatility3, Memory Forensics, oledump.py, OLE/Document Analysis, Network Traffic Simulation (INetSim), Malware Triage Tooling (FlareVM), Security Principles, OWASP Top 10, Insecure Data Handling, Application Design Flaws, IAAA Failures, SSTI, Secure Deserialization, Insecure Design, Human Attack Vectors, System Attack Vectors, SOC Operations, Alert Triage, SOC Workflows, Alert Reporting, Alert Escalation, SOC Crisis Communication, Five Ws Reporting, Asset Lookup, Identity Lookup, Network Diagrams, SOC Workbooks, SOC Metrics & Objectives, MTTD / MTTR / MTTA Optimization, SLA Management, Endpoint Detection & Response (EDR), Behavioral Analysis, Host Isolation & Containment, Elasticsearch, Kibana, KQL (Kibana Query Language), Log Management & Analytics, SOAR (Security Orchestration, Automation, and Response), Security Automation, Playbook Execution, Pyramid of Pain, Threat Intelligence, TTP Mapping, Adversary Disruption, Indicator Analysis, Cyber Kill Chain, Adversary Lifecycle Mapping, Weaponization & Delivery Analysis, C2 Infrastructure Analysis, Unified Kill Chain (UKC), Threat Modelling, In-Through-Out Attack Lifecycle, Pivoting Analysis, Lateral Movement Analysis
+Networking, Linux, Windows, Active Directory, Web Application Security, Cryptography, SQL, Nmap, Metasploit, Wireshark, Tcpdump, PowerShell, Python, JavaScript, Cloud Computing, Offensive Security, Defensive Security, Digital Forensics, Incident Response, Splunk, SIEM, Firewalls, IDS/IPS, Snort, Vulnerability Assessment, OpenVAS, Nessus, CyberChef, YARA, Malware Analysis, CAPA, Static Analysis, REMnux, Volatility3, Memory Forensics, oledump.py, OLE/Document Analysis, Network Traffic Simulation (INetSim), Malware Triage Tooling (FlareVM), Security Principles, OWASP Top 10, Insecure Data Handling, Application Design Flaws, IAAA Failures, SSTI, Secure Deserialization, Insecure Design, Human Attack Vectors, System Attack Vectors, SOC Operations, Alert Triage, SOC Workflows, Alert Reporting, Alert Escalation, SOC Crisis Communication, Five Ws Reporting, Asset Lookup, Identity Lookup, Network Diagrams, SOC Workbooks, SOC Metrics & Objectives, MTTD / MTTR / MTTA Optimization, SLA Management, Endpoint Detection & Response (EDR), Behavioral Analysis, Host Isolation & Containment, Elasticsearch, Kibana, KQL (Kibana Query Language), Log Management & Analytics, SOAR (Security Orchestration, Automation, and Response), Security Automation, Playbook Execution, Pyramid of Pain, Threat Intelligence, TTP Mapping, Adversary Disruption, Indicator Analysis, Cyber Kill Chain, Adversary Lifecycle Mapping, Weaponization & Delivery Analysis, C2 Infrastructure Analysis, Unified Kill Chain (UKC), Threat Modelling, In-Through-Out Attack Lifecycle, Pivoting Analysis, Lateral Movement Analysis, MITRE ATT&CK, MITRE D3FEND, Cyber Analytics Repository (CAR), Behavioral Threat Detection, Adversary Eviction
 
 ### Badges
 - First Four — Completing four rooms in your first week
@@ -43,8 +43,9 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - First scenario completed — Completing your first scenario (Rare: 2.1%)
 - 100% true positive rate — Achieving 100% true positive rate in a scenario (Rare: 1.7%)
 - Defensive Toolsmith — Mastered essential SOC tools for detection
+- Skilled Navigator — Finishing the Eviction challenge
 
-### Completed Rooms (101)
+### Completed Rooms (103)
 - [How Websites Work](https://tryhackme.com/room/howwebsiteswork)
 - [Putting it all together](https://tryhackme.com/room/puttingitalltogether)
 - [DNS in Detail](https://tryhackme.com/room/dnsindetail)
@@ -146,6 +147,8 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - [Pyramid Of Pain](https://tryhackme.com/room/pyramidofpain)
 - [Cyber Kill Chain](https://tryhackme.com/room/cyberkillchain)
 - [Unified Kill Chain](https://tryhackme.com/room/unifiedkillchain)
+- [MITRE](https://tryhackme.com/room/mitre)
+- [Summit](https://tryhackme.com/room/summit)
 
-> _Last updated: 2026-09-02 03:52 UTC_
+> _Last updated: 2026-09-02 20:08 UTC_
 <!-- THM-STATS:END -->
