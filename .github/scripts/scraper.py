@@ -1,12 +1,12 @@
 import re
 from datetime import datetime
 
-# UPDATED FROM THM PROFILE SCREENSHOT & RECENT UNIFIED KILL CHAIN ROOM COMPLETION
+# UPDATED FROM RECENT THM PROFILE & ROOM COMPLETION (MITRE & SUMMIT / EVICTION)
 USERNAME = "ayomiolutoye"
-POINTS = 144         # Updated: 144 Points
-STREAK = 145         # Updated: 145 day streak
+POINTS = 50           # Updated: 50 Points
+STREAK = 148          # Updated: 148 day streak
 RANK = "[0xB] MASTER"
-RANK_POSITION = 59591
+RANK_POSITION = 56281 # Updated: #56281
 TOP_PERCENT = "3%"
 
 COMPLETED_ROOMS = [
@@ -111,6 +111,8 @@ COMPLETED_ROOMS = [
     {"title": "Pyramid Of Pain", "url": "https://tryhackme.com/room/pyramidofpain"},
     {"title": "Cyber Kill Chain", "url": "https://tryhackme.com/room/cyberkillchain"},
     {"title": "Unified Kill Chain", "url": "https://tryhackme.com/room/unifiedkillchain"},
+    {"title": "MITRE", "url": "https://tryhackme.com/room/mitre"},
+    {"title": "Summit", "url": "https://tryhackme.com/room/summit"},
 ]
 
 BADGES = [
@@ -139,6 +141,7 @@ BADGES = [
     "First scenario completed — Completing your first scenario (Rare: 2.1%)",
     "100% true positive rate — Achieving 100% true positive rate in a scenario (Rare: 1.7%)",
     "Defensive Toolsmith — Mastered essential SOC tools for detection",
+    "Skilled Navigator — Finishing the Eviction challenge",
 ]
 
 SKILLS = [
@@ -165,7 +168,8 @@ SKILLS = [
     "SOAR (Security Orchestration, Automation, and Response)", "Security Automation", "Playbook Execution",
     "Pyramid of Pain", "Threat Intelligence", "TTP Mapping", "Adversary Disruption", "Indicator Analysis",
     "Cyber Kill Chain", "Adversary Lifecycle Mapping", "Weaponization & Delivery Analysis", "C2 Infrastructure Analysis",
-    "Unified Kill Chain (UKC)", "Threat Modelling", "In-Through-Out Attack Lifecycle", "Pivoting Analysis", "Lateral Movement Analysis"
+    "Unified Kill Chain (UKC)", "Threat Modelling", "In-Through-Out Attack Lifecycle", "Pivoting Analysis", "Lateral Movement Analysis",
+    "MITRE ATT&CK", "MITRE D3FEND", "Cyber Analytics Repository (CAR)", "Behavioral Threat Detection", "Adversary Eviction"
 ]
 
 
