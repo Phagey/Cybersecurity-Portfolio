@@ -1,12 +1,12 @@
 import re
 from datetime import datetime
 
-# UPDATED FROM RECENT THM PROFILE & ROOM COMPLETION (MITRE & SUMMIT / EVICTION)
+# UPDATED FROM RECENT THM PROFILE & ROOM COMPLETION
 USERNAME = "ayomiolutoye"
-POINTS = 50           # Updated: 50 Points
-STREAK = 148          # Updated: 148 day streak
+POINTS = 50
+STREAK = 150          # Updated: 150 day streak
 RANK = "[0xB] MASTER"
-RANK_POSITION = 56281 # Updated: #56281
+RANK_POSITION = 54801 # Updated: #54801
 TOP_PERCENT = "3%"
 
 COMPLETED_ROOMS = [
@@ -113,6 +113,8 @@ COMPLETED_ROOMS = [
     {"title": "Unified Kill Chain", "url": "https://tryhackme.com/room/unifiedkillchain"},
     {"title": "MITRE", "url": "https://tryhackme.com/room/mitre"},
     {"title": "Summit", "url": "https://tryhackme.com/room/summit"},
+    {"title": "Phishing Analysis Fundamentals", "url": "https://tryhackme.com/room/phishinganalysisfundamentals"},
+    {"title": "Phishing Emails in Action", "url": "https://tryhackme.com/room/phishingemailsinaction"},
 ]
 
 BADGES = [
@@ -169,7 +171,8 @@ SKILLS = [
     "Pyramid of Pain", "Threat Intelligence", "TTP Mapping", "Adversary Disruption", "Indicator Analysis",
     "Cyber Kill Chain", "Adversary Lifecycle Mapping", "Weaponization & Delivery Analysis", "C2 Infrastructure Analysis",
     "Unified Kill Chain (UKC)", "Threat Modelling", "In-Through-Out Attack Lifecycle", "Pivoting Analysis", "Lateral Movement Analysis",
-    "MITRE ATT&CK", "MITRE D3FEND", "Cyber Analytics Repository (CAR)", "Behavioral Threat Detection", "Adversary Eviction"
+    "MITRE ATT&CK", "MITRE D3FEND", "Cyber Analytics Repository (CAR)", "Behavioral Threat Detection", "Adversary Eviction",
+    "Phishing Analysis", "Email Header Analysis", "URL Defanging", "Artifact Triage"
 ]
 
 
