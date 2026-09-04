@@ -150,5 +150,5 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - [MITRE](https://tryhackme.com/room/mitre)
 - [Summit](https://tryhackme.com/room/summit)
 
-> _Last updated: 2026-09-03 03:51 UTC_
+> _Last updated: 2026-09-04 03:53 UTC_
 <!-- THM-STATS:END -->
