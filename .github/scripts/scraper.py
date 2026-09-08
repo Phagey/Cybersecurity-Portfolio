@@ -4,10 +4,10 @@ from datetime import datetime
 # UPDATED FROM RECENT THM PROFILE & ROOM COMPLETION
 USERNAME = "ayomiolutoye"
 POINTS = 50
-STREAK = 150          # Updated: 150 day streak
+STREAK = 154          # Updated: 154 day streak
 RANK = "[0xB] MASTER"
-RANK_POSITION = 54801 # Updated: #54801
-TOP_PERCENT = "3%"
+RANK_POSITION = 54109 # Updated: #54109
+TOP_PERCENT = "Top 3%"
 
 COMPLETED_ROOMS = [
     {"title": "How Websites Work", "url": "https://tryhackme.com/room/howwebsiteswork"},
@@ -115,6 +115,7 @@ COMPLETED_ROOMS = [
     {"title": "Summit", "url": "https://tryhackme.com/room/summit"},
     {"title": "Phishing Analysis Fundamentals", "url": "https://tryhackme.com/room/phishinganalysisfundamentals"},
     {"title": "Phishing Emails in Action", "url": "https://tryhackme.com/room/phishingemailsinaction"},
+    {"title": "Phishing Analysis Tools", "url": "https://tryhackme.com/room/phishinganalysistools"},
 ]
 
 BADGES = [
@@ -172,7 +173,8 @@ SKILLS = [
     "Cyber Kill Chain", "Adversary Lifecycle Mapping", "Weaponization & Delivery Analysis", "C2 Infrastructure Analysis",
     "Unified Kill Chain (UKC)", "Threat Modelling", "In-Through-Out Attack Lifecycle", "Pivoting Analysis", "Lateral Movement Analysis",
     "MITRE ATT&CK", "MITRE D3FEND", "Cyber Analytics Repository (CAR)", "Behavioral Threat Detection", "Adversary Eviction",
-    "Phishing Analysis", "Email Header Analysis", "URL Defanging", "Artifact Triage"
+    "Phishing Analysis", "Email Header Analysis", "URL Defanging", "Artifact Triage",
+    "PhishTool", "Interactive Malware Sandboxing (ANY.RUN / Hybrid Analysis)", "Email Header Parsers", "Threat Reputation Lookups (URLScan.io / Cisco Talos)"
 ]
 
 
@@ -187,10 +189,13 @@ def build_readme_section():
     section = f"""<!-- THM-STATS:START -->
 ## TryHackMe Progress
 
+![](https://img.shields.io/badge/TryHackMe-{TOP_PERCENT}%20Global-212C42?style=for-the-badge&logo=tryhackme&logoColor=red)
+
 | Stat | Value |
 |------|-------|
 | Username | [{USERNAME}](https://tryhackme.com/p/{USERNAME}) |
-| Rank | {RANK} (#{RANK_POSITION} — Top {TOP_PERCENT}) |
+| Global Standing | **{TOP_PERCENT}** |
+| Rank | {RANK} (#{RANK_POSITION}) |
 | Points | {POINTS} |
 | Current Streak | {STREAK} days |
 | Rooms Completed | {len(COMPLETED_ROOMS)} |
