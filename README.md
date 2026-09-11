@@ -156,5 +156,5 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - [Phishing Emails in Action](https://tryhackme.com/room/phishingemailsinaction)
 - [Phishing Analysis Tools](https://tryhackme.com/room/phishinganalysistools)
 
-> _Last updated: 2026-09-10 04:01 UTC_
+> _Last updated: 2026-09-11 03:58 UTC_
 <!-- THM-STATS:END -->
