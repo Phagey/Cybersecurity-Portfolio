@@ -4,10 +4,10 @@ from datetime import datetime
 # UPDATED FROM RECENT THM PROFILE & ROOM COMPLETION
 USERNAME = "ayomiolutoye"
 POINTS = 50
-STREAK = 154          # Updated: 154 day streak
+STREAK = 158          # Updated: 158 day streak
 RANK = "[0xB] MASTER"
-RANK_POSITION = 54109 # Updated: #54109
-TOP_PERCENT = "Top 3%"
+RANK_POSITION = 51274 # Updated: #51274
+TOP_PERCENT = "Top 2%" # Updated: Top 2%
 
 COMPLETED_ROOMS = [
     {"title": "How Websites Work", "url": "https://tryhackme.com/room/howwebsiteswork"},
@@ -116,6 +116,8 @@ COMPLETED_ROOMS = [
     {"title": "Phishing Analysis Fundamentals", "url": "https://tryhackme.com/room/phishinganalysisfundamentals"},
     {"title": "Phishing Emails in Action", "url": "https://tryhackme.com/room/phishingemailsinaction"},
     {"title": "Phishing Analysis Tools", "url": "https://tryhackme.com/room/phishinganalysistools"},
+    {"title": "Phishing Prevention", "url": "https://tryhackme.com/room/phishingprevention"},
+    {"title": "The Greenholt Phish", "url": "https://tryhackme.com/room/thegreenholtphish"},
 ]
 
 BADGES = [
@@ -145,6 +147,7 @@ BADGES = [
     "100% true positive rate — Achieving 100% true positive rate in a scenario (Rare: 1.7%)",
     "Defensive Toolsmith — Mastered essential SOC tools for detection",
     "Skilled Navigator — Finishing the Eviction challenge",
+    "Phish Hunter — Completed the Phishing Analysis room series",
 ]
 
 SKILLS = [
