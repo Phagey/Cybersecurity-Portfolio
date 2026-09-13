@@ -11,10 +11,10 @@ Tracking my cybersecurity learning journey
 |------|-------|
 | Username | [ayomiolutoye](https://tryhackme.com/p/ayomiolutoye) |
 | Global Standing | **Top 2%** |
-| Rank | [0xB] MASTER (#51274) |
+| Rank | [0xB] MASTER (#49324) |
 | Points | 50 |
-| Current Streak | 158 days |
-| Rooms Completed | 108 |
+| Current Streak | 159 days |
+| Rooms Completed | 110 |
 | Badges Earned | 27 |
 
 ### Skills Gained
@@ -49,7 +49,7 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - Skilled Navigator — Finishing the Eviction challenge
 - Phish Hunter — Completed the Phishing Analysis room series
 
-### Completed Rooms (108)
+### Completed Rooms (110)
 - [How Websites Work](https://tryhackme.com/room/howwebsiteswork)
 - [Putting it all together](https://tryhackme.com/room/puttingitalltogether)
 - [DNS in Detail](https://tryhackme.com/room/dnsindetail)
@@ -137,27 +137,29 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - [Training Impact on Teams](https://tryhackme.com/room/trainingimpactonteams)
 - [SOC L1 Alert Triage](https://tryhackme.com/room/socl1alerttriage)
 - [SOC L1 Alert Reporting](https://tryhackme.com/room/socl1alertreporting)
+- [SOC Workbooks and Lookups](https://tryhackme.com/room/socworkbooks)
+- [SOC Metrics and Objectives](https://tryhackme.com/room/socmetricsandobjectives)
 - [Humans as Attack Vectors](https://tryhackme.com/room/humansasattackvectors)
 - [Systems as Attack Vectors](https://tryhackme.com/room/systemsasattackvectors)
 - [SOC Role in Blue Team](https://tryhackme.com/room/socroleinblueteam)
+- [Introduction to EDR](https://tryhackme.com/room/introductiontoedr)
 - [OWASP Top 10 2025: IAAA Failures](https://tryhackme.com/room/owasptop102025iaaafailures)
 - [OWASP Top 10 2025: Application Design Flaws](https://tryhackme.com/room/owasptop102025applicationdesignflaws)
 - [OWASP Top 10 2025: Insecure Data Handling](https://tryhackme.com/room/owasptop102025insecuredatahandling)
-- [SOC Workbooks](https://tryhackme.com/room/socworkbooks)
-- [SOC Metrics and Objectives](https://tryhackme.com/room/socmetricsandobjectives)
-- [Introduction to EDR](https://tryhackme.com/room/introductiontoedr)
-- [Elastic Stack: The Basics](https://tryhackme.com/room/elasticstackthebasics)
-- [Introduction to SOAR](https://tryhackme.com/room/introductiontosoar)
-- [Pyramid Of Pain](https://tryhackme.com/room/pyramidofpain)
-- [Cyber Kill Chain](https://tryhackme.com/room/cyberkillchain)
-- [Unified Kill Chain](https://tryhackme.com/room/unifiedkillchain)
 - [MITRE](https://tryhackme.com/room/mitre)
-- [Summit](https://tryhackme.com/room/summit)
 - [Phishing Analysis Fundamentals](https://tryhackme.com/room/phishinganalysisfundamentals)
-- [Phishing Emails in Action](https://tryhackme.com/room/phishingemailsinaction)
 - [Phishing Analysis Tools](https://tryhackme.com/room/phishinganalysistools)
+- [Phishing Emails in Action](https://tryhackme.com/room/phishingemailsinaction)
 - [Phishing Prevention](https://tryhackme.com/room/phishingprevention)
+- [Pyramid Of Pain](https://tryhackme.com/room/pyramidofpain)
 - [The Greenholt Phish](https://tryhackme.com/room/thegreenholtphish)
+- [Cyber Kill Chain](https://tryhackme.com/room/cyberkillchain)
+- [Elastic Stack: The Basics](https://tryhackme.com/room/elasticstackthebasics)
+- [Unified Kill Chain](https://tryhackme.com/room/unifiedkillchain)
+- [Introduction to SOAR](https://tryhackme.com/room/introductiontosoar)
+- [Snapped Phish-ing Line](https://tryhackme.com/room/snappedphishingline)
+- [Eviction](https://tryhackme.com/room/eviction)
+- [Summit](https://tryhackme.com/room/summit)
 
-> _Last updated: 2026-09-12 19:00 UTC_
+> _Last updated: 2026-09-13 22:36 UTC_
 <!-- THM-STATS:END -->
