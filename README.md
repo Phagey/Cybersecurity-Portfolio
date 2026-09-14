@@ -161,5 +161,5 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - [Eviction](https://tryhackme.com/room/eviction)
 - [Summit](https://tryhackme.com/room/summit)
 
-> _Last updated: 2026-09-13 22:36 UTC_
+> _Last updated: 2026-09-14 04:18 UTC_
 <!-- THM-STATS:END -->
