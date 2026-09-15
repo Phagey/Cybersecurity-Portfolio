@@ -11,10 +11,10 @@ Tracking my cybersecurity learning journey
 |------|-------|
 | Username | [ayomiolutoye](https://tryhackme.com/p/ayomiolutoye) |
 | Global Standing | **Top 2%** |
-| Rank | [0xB] MASTER (#49324) |
-| Points | 50 |
-| Current Streak | 159 days |
-| Rooms Completed | 110 |
+| Rank | [0xC] GURU (#48108) |
+| Points | 72 |
+| Current Streak | 161 days |
+| Rooms Completed | 111 |
 | Badges Earned | 27 |
 
 ### Skills Gained
@@ -49,7 +49,7 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - Skilled Navigator — Finishing the Eviction challenge
 - Phish Hunter — Completed the Phishing Analysis room series
 
-### Completed Rooms (110)
+### Completed Rooms (111)
 - [How Websites Work](https://tryhackme.com/room/howwebsiteswork)
 - [Putting it all together](https://tryhackme.com/room/puttingitalltogether)
 - [DNS in Detail](https://tryhackme.com/room/dnsindetail)
@@ -160,6 +160,7 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - [Snapped Phish-ing Line](https://tryhackme.com/room/snappedphishingline)
 - [Eviction](https://tryhackme.com/room/eviction)
 - [Summit](https://tryhackme.com/room/summit)
+- [Network Traffic Basics](https://tryhackme.com/room/networktrafficbasics)
 
-> _Last updated: 2026-09-15 04:18 UTC_
+> _Last updated: 2026-09-15 21:02 UTC_
 <!-- THM-STATS:END -->
