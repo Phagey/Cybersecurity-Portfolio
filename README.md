@@ -162,5 +162,5 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - [Summit](https://tryhackme.com/room/summit)
 - [Network Traffic Basics](https://tryhackme.com/room/networktrafficbasics)
 
-> _Last updated: 2026-09-16 04:14 UTC_
+> _Last updated: 2026-09-17 04:20 UTC_
 <!-- THM-STATS:END -->
