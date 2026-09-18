@@ -11,14 +11,14 @@ Tracking my cybersecurity learning journey
 |------|-------|
 | Username | [ayomiolutoye](https://tryhackme.com/p/ayomiolutoye) |
 | Global Standing | **Top 2%** |
-| Rank | [0xC] GURU (#48108) |
-| Points | 72 |
-| Current Streak | 161 days |
-| Rooms Completed | 111 |
+| Rank | [0xC] GURU (#47514) |
+| Points | 152 |
+| Current Streak | 164 days |
+| Rooms Completed | 112 |
 | Badges Earned | 27 |
 
 ### Skills Gained
-Networking, Linux, Windows, Active Directory, Web Application Security, Cryptography, SQL, Nmap, Metasploit, Wireshark, Tcpdump, PowerShell, Python, JavaScript, Cloud Computing, Offensive Security, Defensive Security, Digital Forensics, Incident Response, Splunk, SIEM, Firewalls, IDS/IPS, Snort, Vulnerability Assessment, OpenVAS, Nessus, CyberChef, YARA, Malware Analysis, CAPA, Static Analysis, REMnux, Volatility3, Memory Forensics, oledump.py, OLE/Document Analysis, Network Traffic Simulation (INetSim), Malware Triage Tooling (FlareVM), Security Principles, OWASP Top 10, Insecure Data Handling, Application Design Flaws, IAAA Failures, SSTI, Secure Deserialization, Insecure Design, Human Attack Vectors, System Attack Vectors, SOC Operations, Alert Triage, SOC Workflows, Alert Reporting, Alert Escalation, SOC Crisis Communication, Five Ws Reporting, Asset Lookup, Identity Lookup, Network Diagrams, SOC Workbooks, SOC Metrics & Objectives, MTTD / MTTR / MTTA Optimization, SLA Management, Endpoint Detection & Response (EDR), Behavioral Analysis, Host Isolation & Containment, Elasticsearch, Kibana, KQL (Kibana Query Language), Log Management & Analytics, SOAR (Security Orchestration, Automation, and Response), Security Automation, Playbook Execution, Pyramid of Pain, Threat Intelligence, TTP Mapping, Adversary Disruption, Indicator Analysis, Cyber Kill Chain, Adversary Lifecycle Mapping, Weaponization & Delivery Analysis, C2 Infrastructure Analysis, Unified Kill Chain (UKC), Threat Modelling, In-Through-Out Attack Lifecycle, Pivoting Analysis, Lateral Movement Analysis, MITRE ATT&CK, MITRE D3FEND, Cyber Analytics Repository (CAR), Behavioral Threat Detection, Adversary Eviction, Phishing Analysis, Email Header Analysis, URL Defanging, Artifact Triage, PhishTool, Interactive Malware Sandboxing (ANY.RUN / Hybrid Analysis), Email Header Parsers, Threat Reputation Lookups (URLScan.io / Cisco Talos)
+Networking, Linux, Windows, Active Directory, Web Application Security, Cryptography, SQL, Nmap, Metasploit, Wireshark, Tcpdump, Packet Operations, Wireshark Filters, Traffic Statistics, GeoIP Analysis, PowerShell, Python, JavaScript, Cloud Computing, Offensive Security, Defensive Security, Digital Forensics, Incident Response, Splunk, SIEM, Firewalls, IDS/IPS, Snort, Vulnerability Assessment, OpenVAS, Nessus, CyberChef, YARA, Malware Analysis, CAPA, Static Analysis, REMnux, Volatility3, Memory Forensics, oledump.py, OLE/Document Analysis, Network Traffic Simulation (INetSim), Malware Triage Tooling (FlareVM), Security Principles, OWASP Top 10, Insecure Data Handling, Application Design Flaws, IAAA Failures, SSTI, Secure Deserialization, Insecure Design, Human Attack Vectors, System Attack Vectors, SOC Operations, Alert Triage, SOC Workflows, Alert Reporting, Alert Escalation, SOC Crisis Communication, Five Ws Reporting, Asset Lookup, Identity Lookup, Network Diagrams, SOC Workbooks, SOC Metrics & Objectives, MTTD / MTTR / MTTA Optimization, SLA Management, Endpoint Detection & Response (EDR), Behavioral Analysis, Host Isolation & Containment, Elasticsearch, Kibana, KQL (Kibana Query Language), Log Management & Analytics, SOAR (Security Orchestration, Automation, and Response), Security Automation, Playbook Execution, Pyramid of Pain, Threat Intelligence, TTP Mapping, Adversary Disruption, Indicator Analysis, Cyber Kill Chain, Adversary Lifecycle Mapping, Weaponization & Delivery Analysis, C2 Infrastructure Analysis, Unified Kill Chain (UKC), Threat Modelling, In-Through-Out Attack Lifecycle, Pivoting Analysis, Lateral Movement Analysis, MITRE ATT&CK, MITRE D3FEND, Cyber Analytics Repository (CAR), Behavioral Threat Detection, Adversary Eviction, Phishing Analysis, Email Header Analysis, URL Defanging, Artifact Triage, PhishTool, Interactive Malware Sandboxing (ANY.RUN / Hybrid Analysis), Email Header Parsers, Threat Reputation Lookups (URLScan.io / Cisco Talos)
 
 ### Badges
 - First Four — Completing four rooms in your first week
@@ -49,7 +49,7 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - Skilled Navigator — Finishing the Eviction challenge
 - Phish Hunter — Completed the Phishing Analysis room series
 
-### Completed Rooms (111)
+### Completed Rooms (112)
 - [How Websites Work](https://tryhackme.com/room/howwebsiteswork)
 - [Putting it all together](https://tryhackme.com/room/puttingitalltogether)
 - [DNS in Detail](https://tryhackme.com/room/dnsindetail)
@@ -161,6 +161,7 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - [Eviction](https://tryhackme.com/room/eviction)
 - [Summit](https://tryhackme.com/room/summit)
 - [Network Traffic Basics](https://tryhackme.com/room/networktrafficbasics)
+- [Wireshark: Packet Operations](https://tryhackme.com/room/wiresharkpacketoperations)
 
-> _Last updated: 2026-09-18 04:04 UTC_
+> _Last updated: 2026-09-18 21:33 UTC_
 <!-- THM-STATS:END -->
