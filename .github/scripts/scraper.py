@@ -1,12 +1,12 @@
 import re
 from datetime import datetime
 
-# UPDATED FROM RECENT THM PROFILE & ROOM COMPLETION (from image.png)
+# UPDATED FROM RECENT THM PROFILE & ROOM COMPLETION
 USERNAME = "ayomiolutoye"
-POINTS = 72           # Updated: 72 points earned
-STREAK = 161          # 161 day streak
+POINTS = 152          # Points earned from latest room completion
+STREAK = 164          # 164 day streak
 RANK = "[0xC] GURU"   # [0xC][GURU]
-RANK_POSITION = 48108 # #48108
+RANK_POSITION = 47514 # Updated profile rank
 TOP_PERCENT = "Top 2%"
 
 # Updated list of completed rooms
@@ -137,6 +137,7 @@ COMPLETED_ROOMS = [
 
     # Recent Completions
     {"title": "Network Traffic Basics", "url": "https://tryhackme.com/room/networktrafficbasics"},
+    {"title": "Wireshark: Packet Operations", "url": "https://tryhackme.com/room/wiresharkpacketoperations"},
 ]
 
 BADGES = [
@@ -173,6 +174,7 @@ SKILLS = [
     "Networking", "Linux", "Windows", "Active Directory",
     "Web Application Security", "Cryptography", "SQL",
     "Nmap", "Metasploit", "Wireshark", "Tcpdump",
+    "Packet Operations", "Wireshark Filters", "Traffic Statistics", "GeoIP Analysis",
     "PowerShell", "Python", "JavaScript", "Cloud Computing",
     "Offensive Security", "Defensive Security", "Digital Forensics",
     "Incident Response", "Splunk", "SIEM", "Firewalls", "IDS/IPS", "Snort",
