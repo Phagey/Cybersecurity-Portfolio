@@ -4,9 +4,9 @@ from datetime import datetime
 # UPDATED FROM RECENT THM PROFILE & ROOM COMPLETION
 USERNAME = "ayomiolutoye"
 POINTS = 152          # Points earned from latest room completion
-STREAK = 164          # 164 day streak
+STREAK = 180          # Updated to 180 day streak
 RANK = "[0xC] GURU"   # [0xC][GURU]
-RANK_POSITION = 47514 # Updated profile rank
+RANK_POSITION = 46498 # Updated profile rank
 TOP_PERCENT = "Top 2%"
 
 # Updated list of completed rooms
@@ -138,6 +138,7 @@ COMPLETED_ROOMS = [
     # Recent Completions
     {"title": "Network Traffic Basics", "url": "https://tryhackme.com/room/networktrafficbasics"},
     {"title": "Wireshark: Packet Operations", "url": "https://tryhackme.com/room/wiresharkpacketoperations"},
+    {"title": "Wireshark: Traffic Analysis", "url": "https://tryhackme.com/room/wiresharktrafficanalysis"},
 ]
 
 BADGES = [
@@ -168,6 +169,8 @@ BADGES = [
     "Defensive Toolsmith — Mastered essential SOC tools for detection",
     "Skilled Navigator — Finishing the Eviction challenge",
     "Phish Hunter — Completed the Phishing Analysis room series",
+    "180 Day Streak — Hacking for 180 days in a row (Rare: 2.7%)",
+    "Wireshark — Competent with Wireshark & Packet Analysis (Rare: 3.8%)",
 ]
 
 SKILLS = [
