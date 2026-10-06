@@ -166,5 +166,5 @@ Networking, Linux, Windows, Active Directory, Web Application Security, Cryptogr
 - [Wireshark: Packet Operations](https://tryhackme.com/room/wiresharkpacketoperations)
 - [Wireshark: Traffic Analysis](https://tryhackme.com/room/wiresharktrafficanalysis)
 
-> _Last updated: 2026-10-05 04:58 UTC_
+> _Last updated: 2026-10-06 05:46 UTC_
 <!-- THM-STATS:END -->
