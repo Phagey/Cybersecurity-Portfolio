@@ -3,11 +3,11 @@ from datetime import datetime
 
 # UPDATED FROM RECENT THM PROFILE & ROOM COMPLETION
 USERNAME = "ayomiolutoye"
-POINTS = 200          # Points earned from latest room completion
-STREAK = 183          # Updated to 183 day streak
-RANK = "[0xC] GURU"   # [0xC][GURU]
-RANK_POSITION = 45476 # Updated profile rank
-TOP_PERCENT = "Top 2%"
+POINTS = 200          # Points earned from latest room completion[cite: 20]
+STREAK = 183          # Updated to 183 day streak[cite: 20, 21]
+RANK = "[0xC] GURU"   # [0xC][GURU][cite: 21]
+RANK_POSITION = 45476 # Updated profile rank[cite: 21]
+TOP_PERCENT = "Top 2%" #[cite: 21]
 
 # Updated list of completed rooms
 COMPLETED_ROOMS = [
@@ -139,7 +139,7 @@ COMPLETED_ROOMS = [
     {"title": "Network Traffic Basics", "url": "https://tryhackme.com/room/networktrafficbasics"},
     {"title": "Wireshark: Packet Operations", "url": "https://tryhackme.com/room/wiresharkpacketoperations"},
     {"title": "Wireshark: Traffic Analysis", "url": "https://tryhackme.com/room/wiresharktrafficanalysis"},
-    {"title": "NetworkMiner", "url": "https://tryhackme.com/room/networkminer"},
+    {"title": "NetworkMiner", "url": "https://tryhackme.com/room/networkminer"}, #[cite: 20]
 ]
 
 BADGES = [
@@ -177,9 +177,9 @@ BADGES = [
 SKILLS = [
     "Networking", "Linux", "Windows", "Active Directory",
     "Web Application Security", "Cryptography", "SQL",
-    "Nmap", "Metasploit", "Wireshark", "Tcpdump", "NetworkMiner",
+    "Nmap", "Metasploit", "Wireshark", "Tcpdump", "NetworkMiner", #[cite: 18]
     "Packet Operations", "Wireshark Filters", "Traffic Statistics", "GeoIP Analysis",
-    "Network Forensics", "Passive Artifact Extraction",
+    "Network Forensics", "Passive Artifact Extraction", #[cite: 18]
     "PowerShell", "Python", "JavaScript", "Cloud Computing",
     "Offensive Security", "Defensive Security", "Digital Forensics",
     "Incident Response", "Splunk", "SIEM", "Firewalls", "IDS/IPS", "Snort",
@@ -200,4 +200,70 @@ SKILLS = [
     "SOAR (Security Orchestration, Automation, and Response)", "Security Automation", "Playbook Execution",
     "Pyramid of Pain", "Threat Intelligence", "TTP Mapping", "Adversary Disruption", "Indicator Analysis",
     "Cyber Kill Chain", "Adversary Lifecycle Mapping", "Weaponization & Delivery Analysis", "C2 Infrastructure Analysis",
-    "Unified Kill Chain (UKC)", "Threat Modelling", "In-Through
+    "Unified Kill Chain (UKC)", "Threat Modelling", "In-Through-Out Attack Lifecycle", "Pivoting Analysis", "Lateral Movement Analysis",
+    "MITRE ATT&CK", "MITRE D3FEND", "Cyber Analytics Repository (CAR)", "Behavioral Threat Detection", "Adversary Eviction",
+    "Phishing Analysis", "Email Header Analysis", "URL Defanging", "Artifact Triage",
+    "PhishTool", "Interactive Malware Sandboxing (ANY.RUN / Hybrid Analysis)", "Email Header Parsers", "Threat Reputation Lookups (URLScan.io / Cisco Talos)"
+]
+
+
+def build_readme_section():
+    rooms_md = "\n".join(
+        [f"- [{r['title']}]({r['url']})" for r in COMPLETED_ROOMS]
+    )
+    badges_md = "\n".join([f"- {b}" for b in BADGES]) or "_Visit your profile -> Badges tab to see all badges!_"
+    skills_md = ", ".join(SKILLS)
+    last_updated = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
+
+    section = f"""<!-- THM-STATS:START -->
+## TryHackMe Progress
+
+![](https://img.shields.io/badge/TryHackMe-{TOP_PERCENT}%20Global-212C42?style=for-the-badge&logo=tryhackme&logoColor=red)
+
+| Stat | Value |
+|------|-------|
+| Username | [{USERNAME}](https://tryhackme.com/p/{USERNAME}) |
+| Global Standing | **{TOP_PERCENT}** |
+| Rank | {RANK} (#{RANK_POSITION}) |
+| Points | {POINTS} |
+| Current Streak | {STREAK} days |
+| Rooms Completed | {len(COMPLETED_ROOMS)} |
+| Badges Earned | {len(BADGES)} |
+
+### Skills Gained
+{skills_md}
+
+### Badges
+{badges_md}
+
+### Completed Rooms ({len(COMPLETED_ROOMS)})
+{rooms_md}
+
+> _Last updated: {last_updated}_
+<!-- THM-STATS:END -->"""
+
+    return section
+
+
+def update_readme(section, readme_path="README.md"):
+    try:
+        with open(readme_path, "r", encoding="utf-8") as f:
+            content = f.read()
+    except FileNotFoundError:
+        content = "# My CyberSecurity Journey\n\n"
+
+    pattern = r"<!-- THM-STATS:START -->.*?<!-- THM-STATS:END -->"
+    if re.search(pattern, content, re.DOTALL):
+        content = re.sub(pattern, section, content, flags=re.DOTALL)
+    else:
+        content += f"\n\n{section}\n"
+
+    with open(readme_path, "w", encoding="utf-8") as f:
+        f.write(content)
+
+    print("README.md updated successfully.")
+
+
+if __name__ == "__main__":
+    section = build_readme_section()
+    update_readme(section)
